@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Tienda_discos>
+    <informacion_tienda>
+        <nombre_tienda>NOMBRE A ELEGIR</nombre_tienda>
+        <direccion>
+            <calle>Avenida de la Música, 123</calle>
+            <ciudad>Vitoria</ciudad>
+            <pais>España</pais>
+            <codigo_postal>28001</codigo_postal>
+        </direccion>
+        <horarios>
+            <lunes>10:00 - 19:00</lunes>
+            <martes>10:00 - 19:00</martes>
+            <miercoles>10:00 - 19:00</miercoles>
+            <jueves>10:00 - 19:00</jueves>
+            <viernes>10:00 - 19:00</viernes>
+            <sabado>11:00 - 14:00</sabado>
+            <domingo>Cerrado</domingo>
+        </horarios>
+        <contacto>
+            <telefono>+34 912 345 678</telefono>
+            <email>contacto@discosrockpop.com</email>
+            <web>http://www.discosrockpop.com</web>
+        </contacto>
+    </informacion_tienda>
+    <discos>
+        <disco>
+            <nombre_disco></nombre_disco>
+            <fecha_lanzamiento></fecha_lanzamiento>
+            <duracion></duracion>
+            <formato></formato>
+            <Caratura></caratura>
+            <link_compra></link_compra>
+            <canciones>
+                <cancion>
+                    <titulo></titulo>
+                    <genero></genero>
+                    <duracion></duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre></nombre>
+                            <nombre_real></nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+            </canciones>
+
+        </disco>
+    <discos>
+        <disco cod_disco="001">
+            <nombre_disco>Music of My Mind</nombre_disco>
+            <fecha_lanzamiento>1972-03-03</fecha_lanzamiento>
+            <duracion>39:14</duracion>
+            <formato>CD</formato>
+            <caratura>Imagen de la portada del disco</caratura>
+            <link_compra>https://www.amazon.com/dp/B000002P0U</link_compra>
+            <canciones>
+                <cancion>
+                    <titulo>Love Having You Around</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>3:30</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Stevie Wonder</nombre>
+                            <nombre_real>Stevie Judkins</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>Superwoman (Where Were You When I Needed You)</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>4:10</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Stevie Wonder</nombre>
+                            <nombre_real>Stevie Judkins</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>I Love Every Little Thing About You</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>3:35</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Stevie Wonder</nombre>
+                            <nombre_real>Stevie Judkins</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>Sweet Little Girl</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>3:19</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Stevie Wonder</nombre>
+                            <nombre_real>Stevie Judkins</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>Happier Than the Morning Sun</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>5:29</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Stevie Wonder</nombre>
+                            <nombre_real>Stevie Judkins</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>Girl Blue</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>4:46</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Stevie Wonder</nombre>
+                            <nombre_real>Stevie Judkins</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>Seems So Long</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>3:40</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Stevie Wonder</nombre>
+                            <nombre_real>Stevie Judkins</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>Keep on Running</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>4:45</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Stevie Wonder</nombre>
+                            <nombre_real>Stevie Judkins</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>Who’s the One</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>3:45</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Stevie Wonder</nombre>
+                            <nombre_real>Stevie Judkins</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+            </canciones>
+        </disco>
+
+        <disco cod_disco="002">
+            <nombre_disco>The Definitive Collection</nombre_disco>
+            <fecha_lanzamiento>2008-11-04</fecha_lanzamiento>
+            <duracion>78:42</duracion>
+            <formato>CD</formato>
+            <caratura>Imagen de la portada del disco</caratura>
+            <link_compra>https://www.amazon.com/dp/B001A6H0Q6</link_compra>
+            <canciones>
+                <cancion>
+                    <titulo>Fallin'</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>3:29</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Alicia Keys</nombre>
+                            <nombre_real>Alicia Augello Cook</nombre_real>
+                        </compositor>
+                        <compositor>
+                            <nombre>Erik "Ricky" P. Smith</nombre>
+                            <nombre_real>Erik P. Smith</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>If I Ain't Got You</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>3:49</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Alicia Keys</nombre>
+                            <nombre_real>Alicia Augello Cook</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>My Boo</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>4:12</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Alicia Keys</nombre>
+                            <nombre_real>Alicia Augello Cook</nombre_real>
+                        </compositor>
+                        <compositor>
+                            <nombre>Usher</nombre>
+                            <nombre_real>Usher Raymond IV</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>Girl on Fire</titulo>
+                    <genero>Pop, R&amp;B</genero>
+                    <duracion>3:44</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Alicia Keys</nombre>
+                            <nombre_real>Alicia Augello Cook</nombre_real>
+                        </compositor>
+                        <compositor>
+                            <nombre>Jeff Bhasker</nombre>
+                            <nombre_real>Jeffrey Bhasker</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>Un-Thinkable (I'm Ready)</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>4:38</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Alicia Keys</nombre>
+                            <nombre_real>Alicia Augello Cook</nombre_real>
+                        </compositor>
+                        <compositor>
+                            <nombre>Shawn "Jay-Z" Carter</nombre>
+                            <nombre_real>Shawn Corey Carter</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>No One</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>4:13</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Alicia Keys</nombre>
+                            <nombre_real>Alicia Augello Cook</nombre_real>
+                        </compositor>
+                        <compositor>
+                            <nombre>George "The King of Swag" Nash</nombre>
+                            <nombre_real>George Nash</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>Empire State of Mind (Part II) Broken Down</titulo>
+                    <genero>Pop, R&amp;B</genero>
+                    <duracion>3:33</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Alicia Keys</nombre>
+                            <nombre_real>Alicia Augello Cook</nombre_real>
+                        </compositor>
+                        <compositor>
+                            <nombre>Jay-Z</nombre>
+                            <nombre_real>Shawn Corey Carter</nombre_real>
+                        </compositor>
+                        <compositor>
+                            <nombre>Al Shux</nombre>
+                            <nombre_real>Alvin "Al Shux" Lewis</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>Like You'll Never See Me Again</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>4:49</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Alicia Keys</nombre>
+                            <nombre_real>Alicia Augello Cook</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>Teenage Love Affair</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>4:12</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Alicia Keys</nombre>
+                            <nombre_real>Alicia Augello Cook</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>Falling</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>3:33</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Alicia Keys</nombre>
+                            <nombre_real>Alicia Augello Cook</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>Diary</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>4:08</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Alicia Keys</nombre>
+                            <nombre_real>Alicia Augello Cook</nombre_real>
+                        </compositor>
+                        <compositor>
+                            <nombre>J.R. Hutson</nombre>
+                            <nombre_real>John Robinson Hutson</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+
+                <cancion>
+                    <titulo>Butterflyz</titulo>
+                    <genero>R&amp;B, Soul</genero>
+                    <duracion>4:04</duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre>Alicia Keys</nombre>
+                            <nombre_real>Alicia Augello Cook</nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+            </canciones>
+        </disco>
+    </discos>
+</Tienda_discos>
+</Tienda_discos>
