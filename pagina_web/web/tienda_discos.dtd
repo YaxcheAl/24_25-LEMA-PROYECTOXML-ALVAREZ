@@ -6,6 +6,7 @@
 <!ELEMENT ciudad (#PCDATA)>
 <!ELEMENT pais (#PCDATA)>
 <!ELEMENT codigo_postal (#PCDATA)>
+<!-- DTD changes in horario-->
 <!ELEMENT horarios (lunes,martes,miercoles,jueves,viernes,sabado,domingo)>
 <!ELEMENT lunes (#PCDATA)>
 <!ELEMENT martes (#PCDATA)>
@@ -14,6 +15,16 @@
 <!ELEMENT viernes (#PCDATA)>
 <!ELEMENT sabado (#PCDATA)>
 <!ELEMENT domingo (#PCDATA)>
+
+<!ATTLIST lunes horario  NMTOKEN #IMPLIED>
+<!ATTLIST martes horario  NMTOKEN #IMPLIED>
+<!ATTLIST miercoles horario  NMTOKEN #IMPLIED>
+<!ATTLIST jueves horario  NMTOKEN #IMPLIED>
+<!ATTLIST viernes horario  NMTOKEN #IMPLIED>
+<!ATTLIST sabado horario  NMTOKEN #IMPLIED>
+<!ATTLIST domingo horario  NMTOKEN #IMPLIED>
+<!-- DTD changes in horario finished -->
+
 <!ELEMENT contacto (telefono,email,web)>
 <!ELEMENT telefono (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
