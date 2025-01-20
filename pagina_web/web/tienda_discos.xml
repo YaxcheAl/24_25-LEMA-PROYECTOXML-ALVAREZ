@@ -24,8 +24,9 @@
             <web>http://www.discosrockpop.com</web>
         </contacto>
     </informacion_tienda>
+
     <discos>
-        <disco>
+        <disco cod_disco="" cod_artista="" cod_gen="">
             <nombre_disco>All Hope Is Gone</nombre_disco>
             <autor>Slipknot</autor>
             <fecha_lanzamiento>26/08/2008</fecha_lanzamiento>
@@ -36,63 +37,12 @@
             <canciones>
                 <cancion>
                     <titulo></titulo>
-                    <genero></genero>
                     <duracion></duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre></nombre>
-                            <nombre_real></nombre_real>
-                        </compositor>
-                    </compositores>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <genero></genero>
-                    <duracion></duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre></nombre>
-                            <nombre_real></nombre_real>
-                        </compositor>
-                    </compositores>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <genero></genero>
-                    <duracion></duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre></nombre>
-                            <nombre_real></nombre_real>
-                        </compositor>
-                    </compositores>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <genero></genero>
-                    <duracion></duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre></nombre>
-                            <nombre_real></nombre_real>
-                        </compositor>
-                    </compositores>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <genero></genero>
-                    <duracion></duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre></nombre>
-                            <nombre_real></nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
             </canciones>
 
         </disco>
-        <disco cod_disco="001" cod_artista="01">
+        <disco cod_disco="001" cod_artista="02" cod_gen="">
             <nombre_disco>Music of My Mind</nombre_disco>
             <fecha_lanzamiento>1972-03-03</fecha_lanzamiento>
             <duracion>39:14</duracion>
@@ -156,7 +106,7 @@
             </canciones>
         </disco>
 
-        <disco cod_disco="002">
+        <disco cod_disco="002" cod_artista="01" cod_gen="">
             <nombre_disco>The Definitive Collection</nombre_disco>
             <fecha_lanzamiento>2008-11-04</fecha_lanzamiento>
             <duracion>78:42</duracion>
@@ -357,5 +307,12 @@
         </artista>
 
     </artistas_discos>
+
+    <generos>
+        <genero>
+            <nombre></nombre>
+            <descripcion></descripcion>
+        </genero>
+    </generos>
 
 </Tienda_discos>
