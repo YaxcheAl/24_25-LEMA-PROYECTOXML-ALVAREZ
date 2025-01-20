@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="tienda_discos.dtd"?>
 <Tienda_discos>
     <genres>
         <genre cod="01">
