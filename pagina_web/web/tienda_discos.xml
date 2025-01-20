@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?xml-model href="tienda_discos.dtd"?>
 <Tienda_discos>
     <informacion_tienda>
         <nombre_tienda>NOMBRE A ELEGIR</nombre_tienda>
@@ -26,13 +27,58 @@
     </informacion_tienda>
     <discos>
         <disco>
-            <nombre_disco></nombre_disco>
-            <fecha_lanzamiento></fecha_lanzamiento>
-            <duracion></duracion>
-            <formato></formato>
-            <caratula></caratula>
+            <nombre_disco>All Hope Is Gone</nombre_disco>
+            <autor>Slipknot</autor>
+            <fecha_lanzamiento>26/08/2008</fecha_lanzamiento>
+            <duracion>57:44 min</duracion>
+            <formato>CD</formato>
+            <caratula>allhopeisgone-slipknot.jpg</caratula>
             <link_compra></link_compra>
             <canciones>
+                <cancion>
+                    <titulo></titulo>
+                    <genero></genero>
+                    <duracion></duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre></nombre>
+                            <nombre_real></nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+                <cancion>
+                    <titulo></titulo>
+                    <genero></genero>
+                    <duracion></duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre></nombre>
+                            <nombre_real></nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+                <cancion>
+                    <titulo></titulo>
+                    <genero></genero>
+                    <duracion></duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre></nombre>
+                            <nombre_real></nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
+                <cancion>
+                    <titulo></titulo>
+                    <genero></genero>
+                    <duracion></duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre></nombre>
+                            <nombre_real></nombre_real>
+                        </compositor>
+                    </compositores>
+                </cancion>
                 <cancion>
                     <titulo></titulo>
                     <genero></genero>
