@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="tienda_discos.dtd"?>
 <Tienda_discos>
-    <genres>
-        <genre cod="01">
-            <name>Nu metal</name>
-            <description>It fuses influences from grunge, post-grunge, alternative rock, noise rock, alternative metal, hardcore punk, post-industrial music, funk music, rap rock, and various heavy metal genres. Nu metal emphasizes mood, rhythm, and texture over melody, often using rhythmic, syncopated riffs played on distorted electric guitars with strings tuned to lower pitches to create a dark and thick sound.</description>
-        </genre>
-        <genre cod="02">
-            <name>Metalcore</name>
-            <description>It emerged in the early to mid-1990s in the United States and is characterized by heavy guitar riffs, occasional blast beats, and a significant emphasis on breakdowns—slow, intense passages that encourage moshing. The genre incorporates various subgenres such as mathcore, melodic metalcore, and progressive metalcore, each with its distinct characteristics. Metalcore is distinguished from other punk-metal fusions by its focus on breakdowns and the use of both distorted and clean vocals.</description>
-        </genre>
-            <genre cod="03">
-                <name>Soul</name>
-                <description>Soul music primarily combines elements of gospel, R&#38;B, and jazz. It is characterized by its emotional intensity, powerful vocals, and the use of gospel-music devices. The genre emerged from the power struggle to increase black Americans&#96; awareness of their African ancestry, leading to the creation of music that boasted pride in being black.</description>
-        </genre>
-            <genre cod="04">
-                <name>Thrash metal</name>
-                <description>Thrash metal is an extreme subgenre of heavy metal characterized by its fast tempos, aggressive tone, and intense guitar riffs. It emerged in the early 1980s, influenced by the New Wave of British Heavy Metal (NWOBHM) and hardcore punk. Thrash metal is known for its use of low-end percussive guitar riffs with heavy distortion, maniacal drumming, and guitar solos that are fast and technically demanding. Vocal styles range from aggressive shouts to melodic singing.</description>
-        </genre>
-    </genres>
     <informacion_tienda>
         <nombre_tienda>NOMBRE A ELEGIR</nombre_tienda>
         <direccion>
@@ -47,20 +31,20 @@
             <autor>Slipknot</autor>
             <fecha_lanzamiento>26/08/2008</fecha_lanzamiento>
             <duracion>57:44 min</duracion>
-            <genero></genero>
             <formato>CD</formato>
             <caratula>allhopeisgone-slipknot.jpg</caratula>
             <link_compra></link_compra>
-            <compositores>
-                    <compositor>
-                        <nombre></nombre>
-                        <nombre_real></nombre_real>
-                    </compositor>
-            </compositores>
             <canciones>
                 <cancion>
-                    <titulo>All Hope Is Gone</titulo>
+                    <titulo></titulo>
+                    <genero></genero>
                     <duracion></duracion>
+                    <compositores>
+                        <compositor>
+                            <nombre></nombre>
+                            <nombre_real></nombre_real>
+                        </compositor>
+                    </compositores>
                 </cancion>
                 <cancion>
                     <titulo></titulo>
@@ -109,7 +93,7 @@
             </canciones>
 
         </disco>
-        <disco cod_disco="001">
+        <disco cod_disco="001" cod_artista="01">
             <nombre_disco>Music of My Mind</nombre_disco>
             <fecha_lanzamiento>1972-03-03</fecha_lanzamiento>
             <duracion>39:14</duracion>
@@ -121,108 +105,54 @@
                     <titulo>Love Having You Around</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>3:30</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Stevie Wonder</nombre>
-                            <nombre_real>Stevie Judkins</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>Superwoman (Where Were You When I Needed You)</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>4:10</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Stevie Wonder</nombre>
-                            <nombre_real>Stevie Judkins</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>I Love Every Little Thing About You</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>3:35</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Stevie Wonder</nombre>
-                            <nombre_real>Stevie Judkins</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>Sweet Little Girl</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>3:19</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Stevie Wonder</nombre>
-                            <nombre_real>Stevie Judkins</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>Happier Than the Morning Sun</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>5:29</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Stevie Wonder</nombre>
-                            <nombre_real>Stevie Judkins</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>Girl Blue</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>4:46</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Stevie Wonder</nombre>
-                            <nombre_real>Stevie Judkins</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>Seems So Long</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>3:40</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Stevie Wonder</nombre>
-                            <nombre_real>Stevie Judkins</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>Keep on Running</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>4:45</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Stevie Wonder</nombre>
-                            <nombre_real>Stevie Judkins</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>Who’s the One</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>3:45</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Stevie Wonder</nombre>
-                            <nombre_real>Stevie Judkins</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
             </canciones>
         </disco>
@@ -238,179 +168,77 @@
                 <cancion>
                     <titulo>Fallin'</titulo>
                     <genero>R&amp;B, Soul</genero>
-                    <duracion>3:29</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Alicia Keys</nombre>
-                            <nombre_real>Alicia Augello Cook</nombre_real>
-                        </compositor>
-                        <compositor>
-                            <nombre>Erik "Ricky" P. Smith</nombre>
-                            <nombre_real>Erik P. Smith</nombre_real>
-                        </compositor>
-                    </compositores>
+                    <duracion>3:29</duracion>  
                 </cancion>
 
                 <cancion>
                     <titulo>If I Ain't Got You</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>3:49</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Alicia Keys</nombre>
-                            <nombre_real>Alicia Augello Cook</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>My Boo</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>4:12</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Alicia Keys</nombre>
-                            <nombre_real>Alicia Augello Cook</nombre_real>
-                        </compositor>
-                        <compositor>
-                            <nombre>Usher</nombre>
-                            <nombre_real>Usher Raymond IV</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>Girl on Fire</titulo>
                     <genero>Pop, R&amp;B</genero>
                     <duracion>3:44</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Alicia Keys</nombre>
-                            <nombre_real>Alicia Augello Cook</nombre_real>
-                        </compositor>
-                        <compositor>
-                            <nombre>Jeff Bhasker</nombre>
-                            <nombre_real>Jeffrey Bhasker</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>Un-Thinkable (I'm Ready)</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>4:38</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Alicia Keys</nombre>
-                            <nombre_real>Alicia Augello Cook</nombre_real>
-                        </compositor>
-                        <compositor>
-                            <nombre>Shawn "Jay-Z" Carter</nombre>
-                            <nombre_real>Shawn Corey Carter</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>No One</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>4:13</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Alicia Keys</nombre>
-                            <nombre_real>Alicia Augello Cook</nombre_real>
-                        </compositor>
-                        <compositor>
-                            <nombre>George "The King of Swag" Nash</nombre>
-                            <nombre_real>George Nash</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>Empire State of Mind (Part II) Broken Down</titulo>
                     <genero>Pop, R&amp;B</genero>
                     <duracion>3:33</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Alicia Keys</nombre>
-                            <nombre_real>Alicia Augello Cook</nombre_real>
-                        </compositor>
-                        <compositor>
-                            <nombre>Jay-Z</nombre>
-                            <nombre_real>Shawn Corey Carter</nombre_real>
-                        </compositor>
-                        <compositor>
-                            <nombre>Al Shux</nombre>
-                            <nombre_real>Alvin "Al Shux" Lewis</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>Like You'll Never See Me Again</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>4:49</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Alicia Keys</nombre>
-                            <nombre_real>Alicia Augello Cook</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>Teenage Love Affair</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>4:12</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Alicia Keys</nombre>
-                            <nombre_real>Alicia Augello Cook</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>Falling</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>3:33</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Alicia Keys</nombre>
-                            <nombre_real>Alicia Augello Cook</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>Diary</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>4:08</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Alicia Keys</nombre>
-                            <nombre_real>Alicia Augello Cook</nombre_real>
-                        </compositor>
-                        <compositor>
-                            <nombre>J.R. Hutson</nombre>
-                            <nombre_real>John Robinson Hutson</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
 
                 <cancion>
                     <titulo>Butterflyz</titulo>
                     <genero>R&amp;B, Soul</genero>
                     <duracion>4:04</duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre>Alicia Keys</nombre>
-                            <nombre_real>Alicia Augello Cook</nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
             </canciones>
         </disco>
-     </discos>
+    </discos>
+
+
 </Tienda_discos>
