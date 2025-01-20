@@ -30,7 +30,7 @@
             <fecha_lanzamiento></fecha_lanzamiento>
             <duracion></duracion>
             <formato></formato>
-            <Caratura></caratura>
+            <caratula></caratula>
             <link_compra></link_compra>
             <canciones>
                 <cancion>
@@ -47,13 +47,12 @@
             </canciones>
 
         </disco>
-    <discos>
         <disco cod_disco="001">
             <nombre_disco>Music of My Mind</nombre_disco>
             <fecha_lanzamiento>1972-03-03</fecha_lanzamiento>
             <duracion>39:14</duracion>
             <formato>CD</formato>
-            <caratura>Imagen de la portada del disco</caratura>
+            <caratula>Imagen de la portada del disco</caratula>
             <link_compra>https://www.amazon.com/dp/B000002P0U</link_compra>
             <canciones>
                 <cancion>
@@ -171,7 +170,7 @@
             <fecha_lanzamiento>2008-11-04</fecha_lanzamiento>
             <duracion>78:42</duracion>
             <formato>CD</formato>
-            <caratura>Imagen de la portada del disco</caratura>
+            <caratula>Imagen de la portada del disco</caratula>
             <link_compra>https://www.amazon.com/dp/B001A6H0Q6</link_compra>
             <canciones>
                 <cancion>
@@ -351,6 +350,5 @@
                 </cancion>
             </canciones>
         </disco>
-    </discos>
-</Tienda_discos>
+     </discos>
 </Tienda_discos>
