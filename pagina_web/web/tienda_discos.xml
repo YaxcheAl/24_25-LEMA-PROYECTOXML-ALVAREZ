@@ -31,20 +31,20 @@
             <autor>Slipknot</autor>
             <fecha_lanzamiento>26/08/2008</fecha_lanzamiento>
             <duracion>57:44 min</duracion>
+            <genero>Nu metal</genero>
             <formato>CD</formato>
             <caratula>allhopeisgone-slipknot.jpg</caratula>
             <link_compra></link_compra>
+            <compositores>
+                    <compositor>
+                        <nombre></nombre>
+                        <nombre_real></nombre_real>
+                    </compositor>
+            </compositores>
             <canciones>
                 <cancion>
-                    <titulo></titulo>
-                    <genero></genero>
+                    <titulo>All Hope Is Gone</titulo>
                     <duracion></duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre></nombre>
-                            <nombre_real></nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
                 <cancion>
                     <titulo></titulo>
