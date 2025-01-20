@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="tienda_discos.dtd"?>
 <Tienda_discos>
+    <genres>
+        <genre cod="01">
+            <name>Nu metal</name>
+            <description>It fuses influences from grunge, post-grunge, alternative rock, noise rock, alternative metal, hardcore punk, post-industrial music, funk music, rap rock, and various heavy metal genres. Nu metal emphasizes mood, rhythm, and texture over melody, often using rhythmic, syncopated riffs played on distorted electric guitars with strings tuned to lower pitches to create a dark and thick sound.</description>
+        </genre>
+        <genre cod="02">
+            <name>Metalcore</name>
+            <description>It emerged in the early to mid-1990s in the United States and is characterized by heavy guitar riffs, occasional blast beats, and a significant emphasis on breakdowns—slow, intense passages that encourage moshing. The genre incorporates various subgenres such as mathcore, melodic metalcore, and progressive metalcore, each with its distinct characteristics. Metalcore is distinguished from other punk-metal fusions by its focus on breakdowns and the use of both distorted and clean vocals.</description>
+        </genre>
+            <genre cod="03">
+                <name>Soul</name>
+                <description>Soul music primarily combines elements of gospel, R&#38;B, and jazz. It is characterized by its emotional intensity, powerful vocals, and the use of gospel-music devices. The genre emerged from the power struggle to increase black Americans&#96; awareness of their African ancestry, leading to the creation of music that boasted pride in being black.</description>
+        </genre>
+            <genre cod="04">
+                <name>Thrash metal</name>
+                <description>Thrash metal is an extreme subgenre of heavy metal characterized by its fast tempos, aggressive tone, and intense guitar riffs. It emerged in the early 1980s, influenced by the New Wave of British Heavy Metal (NWOBHM) and hardcore punk. Thrash metal is known for its use of low-end percussive guitar riffs with heavy distortion, maniacal drumming, and guitar solos that are fast and technically demanding. Vocal styles range from aggressive shouts to melodic singing.</description>
+        </genre>
+    </genres>
     <informacion_tienda>
         <nombre_tienda>NOMBRE A ELEGIR</nombre_tienda>
         <direccion>
@@ -31,20 +47,20 @@
             <autor>Slipknot</autor>
             <fecha_lanzamiento>26/08/2008</fecha_lanzamiento>
             <duracion>57:44 min</duracion>
+            <genero></genero>
             <formato>CD</formato>
             <caratula>allhopeisgone-slipknot.jpg</caratula>
             <link_compra></link_compra>
+            <compositores>
+                    <compositor>
+                        <nombre></nombre>
+                        <nombre_real></nombre_real>
+                    </compositor>
+            </compositores>
             <canciones>
                 <cancion>
-                    <titulo></titulo>
-                    <genero></genero>
+                    <titulo>All Hope Is Gone</titulo>
                     <duracion></duracion>
-                    <compositores>
-                        <compositor>
-                            <nombre></nombre>
-                            <nombre_real></nombre_real>
-                        </compositor>
-                    </compositores>
                 </cancion>
                 <cancion>
                     <titulo></titulo>
