@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="tienda_discos.dtd"?>
 <Tienda_discos>
     <informacion_tienda>
         <nombre_tienda>NOMBRE A ELEGIR</nombre_tienda>
@@ -168,7 +167,7 @@
                 <cancion>
                     <titulo>Fallin'</titulo>
                     <genero>R&amp;B, Soul</genero>
-                    <duracion>3:29</duracion>  
+                    <duracion>3:29</duracion>
                 </cancion>
 
                 <cancion>
@@ -239,6 +238,124 @@
             </canciones>
         </disco>
     </discos>
+    <formatos>
+        <formato cod_form="CD">
+            <nombre>CD</nombre>
+            <descripcion>Compact Disc, a digital optical disc used to store audio recordings with
+                high quality and a capacity of up to 74–80 minutes of uncompressed audio.</descripcion>
+        </formato>
+        <formato cod_form="VIN">
+            <nombre>Vinilo</nombre>
+            <descripcion>Vinyl record, an analog sound storage medium in the form of a flat disc,
+                valued for its warm sound quality and used by audiophiles.</descripcion>
+        </formato>
+        <formato cod_form="BLU">
+            <nombre>Blu-ray</nombre>
+            <descripcion>Blu-ray Disc, a digital optical disc format capable of storing
+                high-definition audio and video, with support for lossless audio formats.</descripcion>
+        </formato>
+    </formatos>
+    <artistas_discos>
+        <artista cod_artista="01">
+            <name>Alicia Keys</name>
+            <año_debut>2001</año_debut>
+            <lugar_origen>New York, United States</lugar_origen>
+            <mientros>
+                <miembro></miembro>
+                <miembro></miembro>
+            </mientros>
+        </artista>
+        <artista cod_artista="02">
+            <name>Stevie Wonder</name>
+            <año_debut>1961</año_debut>
+            <lugar_origen>Saginaw, Michigan, United States</lugar_origen>
+            <mientros>
+                <miembro></miembro>
+                <miembro></miembro>
+            </mientros>
+        </artista>
+        <artista cod_artista="03">
+            <name>Avenged Sevenfold</name>
+            <año_debut>1999</año_debut>
+            <lugar_origen>Huntington Beach, California, United States</lugar_origen>
+            <mientros>
+                <miembro></miembro>
+                <miembro></miembro>
+            </mientros>
+        </artista>
+        <artista cod_artista="04">
+            <name>Bullet for My Valentine</name>
+            <año_debut>1998</año_debut>
+            <lugar_origen>Bridgend, Wales, United Kingdom</lugar_origen>
+            <mientros>
+                <miembro></miembro>
+                <miembro></miembro>
+            </mientros>
+        </artista>
+        <artista cod_artista="05">
+            <name>Bring Me the Horizon</name>
+            <año_debut>2004</año_debut>
+            <lugar_origen>Sheffield, England, United Kingdom</lugar_origen>
+            <mientros>
+                <miembro></miembro>
+                <miembro></miembro>
+            </mientros>
+        </artista>
+        <artista cod_artista="06">
+            <name>Linkin Park</name>
+            <año_debut>2000</año_debut>
+            <lugar_origen>Agoura Hills, California, United States</lugar_origen>
+            <mientros>
+                <miembro></miembro>
+                <miembro></miembro>
+            </mientros>
+        </artista>
+        <artista cod_artista="07">
+            <name>Motionless In White</name>
+            <año_debut>2005</año_debut>
+            <lugar_origen>Scranton, Pennsylvania, United States</lugar_origen>
+            <mientros>
+                <miembro></miembro>
+                <miembro></miembro>
+            </mientros>
+        </artista>
+        <artista cod_artista="08">
+            <name>Guns N' Roses</name>
+            <año_debut>1985</año_debut>
+            <lugar_origen>Los Angeles, California, United States</lugar_origen>
+            <mientros>
+                <miembro></miembro>
+                <miembro></miembro>
+            </mientros>
+        </artista>
+        <artista cod_artista="09">
+            <name>Megadeth</name>
+            <año_debut>1983</año_debut>
+            <lugar_origen>Los Angeles, California, United States</lugar_origen>
+            <mientros>
+                <miembro></miembro>
+                <miembro></miembro>
+            </mientros>
+        </artista>
+        <artista cod_artista="10">
+            <name>Slipknot</name>
+            <año_debut>1995</año_debut>
+            <lugar_origen>Des Moines, Iowa, United States</lugar_origen>
+            <mientros>
+                <miembro></miembro>
+                <miembro></miembro>
+            </mientros>
+        </artista>
+        <artista cod_artista="11">
+            <name>Scorpions</name>
+            <año_debut>1965</año_debut>
+            <lugar_origen>Hannover, Germany</lugar_origen>
+            <mientros>
+                <miembro></miembro>
+                <miembro></miembro>
+            </mientros>
+        </artista>
 
+    </artistas_discos>
 
 </Tienda_discos>
