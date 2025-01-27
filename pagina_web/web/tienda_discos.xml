@@ -30,70 +30,70 @@
             <nombre_disco>All Hope Is Gone</nombre_disco>
             <autor>Slipknot</autor>
             <fecha_lanzamiento>26/08/2008</fecha_lanzamiento>
-            <duracion>57:44 min</duracion>
+            <duracion medida="minuto">57:44 min</duracion medida="minuto">
             <formato>CD</formato>
             <caratula>allhopeisgone-slipknot.jpg</caratula>
             <link_compra>www.fnac.es/a218771/Slipknot-All-Hope-Is-Gone</link_compra>
             <canciones>
                 <cancion>
                     <titulo>.execute.</titulo>
-                    <duracion>1:48</duracion>
+                    <duracion medida="minuto">1:48</duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo>Gematria &#40;The Killing Name&#41;</titulo>
-                    <duracion>6:01</duracion>
+                    <duracion medida="minuto">6:01</duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo>Sulfur</titulo>
-                    <duracion>4:37</duracion>
+                    <duracion medida="minuto">4:37</duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo>Psychosocial</titulo>
-                    <duracion>4:43</duracion>
+                    <duracion medida="minuto">4:43</duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo>Dead Memories</titulo>
-                    <duracion>4:28</duracion>
+                    <duracion medida="minuto">4:28</duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo>Vendetta</titulo>
-                    <duracion>5:15</duracion>
+                    <duracion medida="minuto">5:15</duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo>Butcher&#39;s Hook</titulo>
-                    <duracion>4:14</duracion>
+                    <duracion medida="minuto">4:14</duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo>Gehenna</titulo>
-                    <duracion>6:53</duracion>
+                    <duracion medida="minuto">6:53</duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo>This Cold Black</titulo>
-                    <duracion>4:40</duracion>
+                    <duracion medida="minuto">4:40</duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo>Wherein Lies Continue</titulo>
-                    <duracion>5:36</duracion>
+                    <duracion medida="minuto">5:36</duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo>Snuff</titulo>
-                    <duracion>4:36</duracion>
+                    <duracion medida="minuto">4:36</duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo>All Hope Is Gone</titulo>
-                    <duracion>4:44</duracion>
+                    <duracion medida="minuto">4:44</duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo>Child of Burning Time</titulo>
-                    <duracion>5:09</duracion>
+                    <duracion medida="minuto">5:09</duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo>Vermilion, PT. 2 &#40;Bloodstone Mix&#41;</titulo>
-                    <duracion>3:39</duracion>
+                    <duracion medida="minuto">3:39</duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo>&#39;Til We Die</titulo>
-                    <duracion>5:45</duracion>
+                    <duracion medida="minuto">5:45</duracion medida="minuto">
                 </cancion>
             </canciones>
         </disco>
@@ -101,70 +101,70 @@
             <nombre_disco></nombre_disco>
             <autor></autor>
             <fecha_lanzamiento></fecha_lanzamiento>
-            <duracion></duracion>
+            <duracion medida="minuto"></duracion medida="minuto">
             <formato></formato>
             <caratula></caratula>
             <link_compra></link_compra>
             <canciones>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
             </canciones>
         </disco>
@@ -172,124 +172,124 @@
             <nombre_disco></nombre_disco>
             <autor></autor>
             <fecha_lanzamiento></fecha_lanzamiento>
-            <duracion></duracion>
+            <duracion medida="minuto"></duracion medida="minuto">
             <formato></formato>
             <caratula></caratula>
             <link_compra></link_compra>
             <canciones>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
                 <cancion>
                     <titulo></titulo>
-                    <duracion></duracion>
+                    <duracion medida="minuto"></duracion medida="minuto">
                 </cancion>
             </canciones>
         </disco>
         <disco cod_disco="001" cod_artista="02" cod_gen="D04">
             <nombre_disco>Music of My Mind</nombre_disco>
             <fecha_lanzamiento>1972-03-03</fecha_lanzamiento>
-            <duracion>39:14</duracion>
+            <duracion medida="minuto">39:14</duracion medida="minuto">
             <formato>CD</formato>
             <caratula>Music_of_My_Mind.jpg</caratula>
             <link_compra>www.amazon.com/dp/B000002P0U</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Love Having You Around</titulo>
-                    <duracion>3:30</duracion>
+                    <duracion medida="minuto">3:30</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>Superwoman (Where Were You When I Needed You)</titulo>
-                    <duracion>4:10</duracion>
+                    <duracion medida="minuto">4:10</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>I Love Every Little Thing About You</titulo>
-                    <duracion>3:35</duracion>
+                    <duracion medida="minuto">3:35</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>Sweet Little Girl</titulo>
-                    <duracion>3:19</duracion>
+                    <duracion medida="minuto">3:19</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>Happier Than the Morning Sun</titulo>
-                    <duracion>5:29</duracion>
+                    <duracion medida="minuto">5:29</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>Girl Blue</titulo>
-                    <duracion>4:46</duracion>
+                    <duracion medida="minuto">4:46</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>Seems So Long</titulo>
-                    <duracion>3:40</duracion>
+                    <duracion medida="minuto">3:40</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>Keep on Running</titulo>
-                    <duracion>4:45</duracion>
+                    <duracion medida="minuto">4:45</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>Who&#39;s the One</titulo>
-                    <duracion>3:45</duracion>
+                    <duracion medida="minuto">3:45</duracion medida="minuto">
                 </cancion>
             </canciones>
         </disco>
@@ -297,69 +297,69 @@
         <disco cod_disco="002" cod_artista="01" cod_gen="D05">
             <nombre_disco>The Definitive Collection</nombre_disco>
             <fecha_lanzamiento>2008-11-04</fecha_lanzamiento>
-            <duracion>78:42</duracion>
+            <duracion medida="minuto">78:42</duracion medida="minuto">
             <formato>CD</formato>
             <caratula>The_Definitive_Collection.jpg</caratula>
             <link_compra>www.amazon.com/dp/B001A6H0Q6</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Fallin'</titulo>
-                    <duracion>3:29</duracion>
+                    <duracion medida="minuto">3:29</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>If I Ain't Got You</titulo>
-                    <duracion>3:49</duracion>
+                    <duracion medida="minuto">3:49</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>My Boo</titulo>
-                    <duracion>4:12</duracion>
+                    <duracion medida="minuto">4:12</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>Girl on Fire</titulo>
-                    <duracion>3:44</duracion>
+                    <duracion medida="minuto">3:44</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>Un-Thinkable (I'm Ready)</titulo>
-                    <duracion>4:38</duracion>
+                    <duracion medida="minuto">4:38</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>No One</titulo>
-                    <duracion>4:13</duracion>
+                    <duracion medida="minuto">4:13</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>Empire State of Mind (Part II) Broken Down</titulo>
-                    <duracion>3:33</duracion>
+                    <duracion medida="minuto">3:33</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>Like You'll Never See Me Again</titulo>
-                    <duracion>4:49</duracion>
+                    <duracion medida="minuto">4:49</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>Teenage Love Affair</titulo>
-                    <duracion>4:12</duracion>
+                    <duracion medida="minuto">4:12</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>Falling</titulo>
-                    <duracion>3:33</duracion>
+                    <duracion medida="minuto">3:33</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>Diary</titulo>
-                    <duracion>4:08</duracion>
+                    <duracion medida="minuto">4:08</duracion medida="minuto">
                 </cancion>
 
                 <cancion>
                     <titulo>Butterflyz</titulo>
-                    <duracion>4:04</duracion>
+                    <duracion medida="minuto">4:04</duracion medida="minuto">
                 </cancion>
             </canciones>
         </disco>
