@@ -386,19 +386,11 @@
             <name>Alicia Keys</name>
             <anyo_debut>2001</anyo_debut>
             <lugar_origen>New York, United States</lugar_origen>
-            <miembros>
-                <miembro></miembro>
-                <miembro></miembro>
-            </miembros>
         </artista>
         <artista cod_artista="A02">
             <name>Stevie Wonder</name>
             <anyo_debut>1961</anyo_debut>
             <lugar_origen>Saginaw, Michigan, United States</lugar_origen>
-            <miembros>
-                <miembro></miembro>
-                <miembro></miembro>
-            </miembros>
         </artista>
         <artista cod_artista="A03">
             <name>Avenged Sevenfold</name>
@@ -509,14 +501,14 @@
                 <miembro>Rudolf Schenker</miembro>
                 <miembro>Klaus Meine</miembro>
                 <miembro>Matthias Jabs</miembro>
-                <miembro>Paweł Mąciwoda</miembro>
+                <miembro>Pawel Ma&#231;iwoda</miembro>
                 <miembro>Mikkey Dee</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A12">
             <name>Queen</name>
-            <anyo_debut></anyo_debut>
-            <lugar_origen></lugar_origen>
+            <anyo_debut>1970</anyo_debut>
+            <lugar_origen>London, United Kindom</lugar_origen>
             <miembros>
                 <miembro>Brian May</miembro>
                 <miembro>Roger Taylor</miembro>
