@@ -18,7 +18,7 @@
 <!ELEMENT telefono (#PCDATA)>
 
 <!-- 2 CAMBIO-->
-<!ATTLIST telefono varios CDATA #REQUIRED>
+<!ATTLIST telefono direccion (movil|fijo) #REQUIRED>
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT web (#PCDATA)>
 <!ELEMENT discos (disco+)>
@@ -28,9 +28,9 @@
 <!ATTLIST disco cod_gen NMTOKEN #REQUIRED>
 <!ELEMENT nombre_disco (#PCDATA)>
 
-<!-- 3 CAMBIO -->
+<!-- 3 CAMBIO  arreglar -->
 <!ELEMENT autor (#PCDATA)>
-<!ATTLIST autor attribute-name ID #IMPLIED>
+<!ATTLIST autor cod-autor ID #IMPLIED>
 <!ELEMENT fecha_lanzamiento (#PCDATA)>
 <!ELEMENT duracion (#PCDATA)>
 <!-- CAMBIO 1 -->
@@ -53,7 +53,7 @@
 <!ELEMENT anyo_debut (#PCDATA)>
 <!ELEMENT lugar_origen (#PCDATA)>
 <!ELEMENT miembros (miembro+)>
-<!ELEMENT miembro EMPTY>
+<!ELEMENT miembro (#PCDATA)>
 <!ELEMENT generos (genero+)>
 <!-- 5 CAMBIO -->
 <!ATTLIST generos cod_gen NMTOKEN #IMPLIED>
