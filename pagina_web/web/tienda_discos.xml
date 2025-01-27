@@ -386,100 +386,100 @@
             <name>Alicia Keys</name>
             <año_debut>2001</año_debut>
             <lugar_origen>New York, United States</lugar_origen>
-            <mientros>
+            <miembros>
                 <miembro></miembro>
                 <miembro></miembro>
-            </mientros>
+            </miembros>
         </artista>
         <artista cod_artista="A02">
             <name>Stevie Wonder</name>
             <año_debut>1961</año_debut>
             <lugar_origen>Saginaw, Michigan, United States</lugar_origen>
-            <mientros>
+            <miembros>
                 <miembro></miembro>
                 <miembro></miembro>
-            </mientros>
+            </miembros>
         </artista>
         <artista cod_artista="A03">
             <name>Avenged Sevenfold</name>
             <año_debut>1999</año_debut>
             <lugar_origen>Huntington Beach, California, United States</lugar_origen>
-            <mientros>
+            <miembros>
                 <miembro></miembro>
                 <miembro></miembro>
-            </mientros>
+            </miembros>
         </artista>
         <artista cod_artista="A04">
             <name>Bullet for My Valentine</name>
             <año_debut>1998</año_debut>
             <lugar_origen>Bridgend, Wales, United Kingdom</lugar_origen>
-            <mientros>
+            <miembros>
                 <miembro></miembro>
                 <miembro></miembro>
-            </mientros>
+            </miembros>
         </artista>
         <artista cod_artista="A05">
             <name>Bring Me the Horizon</name>
             <año_debut>2004</año_debut>
             <lugar_origen>Sheffield, England, United Kingdom</lugar_origen>
-            <mientros>
+            <miembros>
                 <miembro></miembro>
                 <miembro></miembro>
-            </mientros>
+            </miembros>
         </artista>
         <artista cod_artista="A06">
             <name>Linkin Park</name>
             <año_debut>2000</año_debut>
             <lugar_origen>Agoura Hills, California, United States</lugar_origen>
-            <mientros>
+            <miembros>
                 <miembro></miembro>
                 <miembro></miembro>
-            </mientros>
+            </miembros>
         </artista>
         <artista cod_artista="A07">
             <name>Motionless In White</name>
             <año_debut>2005</año_debut>
             <lugar_origen>Scranton, Pennsylvania, United States</lugar_origen>
-            <mientros>
+            <miembros>
                 <miembro></miembro>
                 <miembro></miembro>
-            </mientros>
+            </miembros>
         </artista>
         <artista cod_artista="A08">
             <name>Guns N' Roses</name>
             <año_debut>1985</año_debut>
             <lugar_origen>Los Angeles, California, United States</lugar_origen>
-            <mientros>
+            <miembros>
                 <miembro></miembro>
                 <miembro></miembro>
-            </mientros>
+            </miembros>
         </artista>
         <artista cod_artista="A09">
             <name>Megadeth</name>
             <año_debut>1983</año_debut>
             <lugar_origen>Los Angeles, California, United States</lugar_origen>
-            <mientros>
+            <miembros>
                 <miembro></miembro>
                 <miembro></miembro>
-            </mientros>
+            </miembros>
         </artista>
         <artista cod_artista="A10">
             <name>Slipknot</name>
             <año_debut>1995</año_debut>
             <lugar_origen>Des Moines, Iowa, United States</lugar_origen>
-            <mientros>
+            <miembros>
                 <miembro></miembro>
                 <miembro></miembro>
-            </mientros>
+            </miembros>
         </artista>
         <artista cod_artista="A11">
             <name>Scorpions</name>
             <año_debut>1965</año_debut>
             <lugar_origen>Hannover, Germany</lugar_origen>
-            <mientros>
+            <miembros>
                 <miembro></miembro>
                 <miembro></miembro>
-            </mientros>
+            </miembros>
         </artista>
 
     </artistas_discos>
@@ -493,9 +493,9 @@
             <nombre>Soul</nombre>
             <descripcion>It is characterized by its roots in gospel music and rhythm and blues (R&amp;B), and is known for its intense emotional delivery and vocal embellishments. Soul music combines elements of gospel, R&amp;B, and jazz, and is often distinguished by its powerful vocals, call-and-response patterns, and use of church-rooted elements.</descripcion>
         </genero>
-        <genero cod_gen="">
-            <nombre></nombre>
-            <descripcion></descripcion>
+        <genero cod_gen="G03">
+            <nombre>Metalcore</nombre>
+            <descripcion>Metalcore is a musical genre that blends elements of hardcore punk and heavy metal. It emerged in the early 1990s and is characterized by distorted guitar riffs, intense drumming techniques, and vocal styles that range from screaming and shouting to clean singing.</descripcion>
         </genero>
         <genero cod_gen="">
             <nombre></nombre>
