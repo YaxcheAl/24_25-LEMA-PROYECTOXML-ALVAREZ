@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-
-=======
 <!DOCTYPE tienda_discos SYSTEM "tienda_discos.dtd">
->>>>>>> 1bf2381207c42ba885faae32b62fe09196a63d89
 <tienda_discos>
     <informacion_tienda>
         <nombre_tienda>NOMBRE A ELEGIR</nombre_tienda>
