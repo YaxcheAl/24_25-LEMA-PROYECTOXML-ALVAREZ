@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<Tienda_discos>
+<!DOCTYPE tienda_discos SYSTEM "tienda_discos.dtd">
+<tienda_discos>
     <informacion_tienda>
         <nombre_tienda>NOMBRE A ELEGIR</nombre_tienda>
         <direccion>
@@ -21,7 +21,7 @@
         <contacto>
             <telefono>+34 912 345 678</telefono>
             <email>contacto@discosrockpop.com</email>
-            <web>http://www.discosrockpop.com</web>
+            <web>www.discosrockpop.com</web>
         </contacto>
     </informacion_tienda>
 
@@ -33,7 +33,7 @@
             <duracion>57:44 min</duracion>
             <formato>CD</formato>
             <caratula>allhopeisgone-slipknot.jpg</caratula>
-            <link_compra>https://www.fnac.es/a218771/Slipknot-All-Hope-Is-Gone</link_compra>
+            <link_compra>www.fnac.es/a218771/Slipknot-All-Hope-Is-Gone</link_compra>
             <canciones>
                 <cancion>
                     <titulo>.execute.</titulo>
@@ -245,7 +245,7 @@
             <duracion>39:14</duracion>
             <formato>CD</formato>
             <caratula>Music_of_My_Mind.jpg</caratula>
-            <link_compra>https://www.amazon.com/dp/B000002P0U</link_compra>
+            <link_compra>www.amazon.com/dp/B000002P0U</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Love Having You Around</titulo>
@@ -300,7 +300,7 @@
             <duracion>78:42</duracion>
             <formato>CD</formato>
             <caratula>The_Definitive_Collection.jpg</caratula>
-            <link_compra>https://www.amazon.com/dp/B001A6H0Q6</link_compra>
+            <link_compra>www.amazon.com/dp/B001A6H0Q6</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Fallin'</titulo>
@@ -384,7 +384,7 @@
     <artistas_discos>
         <artista cod_artista="A01">
             <name>Alicia Keys</name>
-            <año_debut>2001</año_debut>
+            <anyo_debut>2001</anyo_debut>
             <lugar_origen>New York, United States</lugar_origen>
             <miembros>
                 <miembro></miembro>
@@ -393,7 +393,7 @@
         </artista>
         <artista cod_artista="A02">
             <name>Stevie Wonder</name>
-            <año_debut>1961</año_debut>
+            <anyo_debut>1961</anyo_debut>
             <lugar_origen>Saginaw, Michigan, United States</lugar_origen>
             <miembros>
                 <miembro></miembro>
@@ -402,7 +402,7 @@
         </artista>
         <artista cod_artista="A03">
             <name>Avenged Sevenfold</name>
-            <año_debut>1999</año_debut>
+            <anyo_debut>1999</anyo_debut>
             <lugar_origen>Huntington Beach, California, United States</lugar_origen>
             <miembros>
                 <miembro></miembro>
@@ -411,7 +411,7 @@
         </artista>
         <artista cod_artista="A04">
             <name>Bullet for My Valentine</name>
-            <año_debut>1998</año_debut>
+            <anyo_debut>1998</anyo_debut>
             <lugar_origen>Bridgend, Wales, United Kingdom</lugar_origen>
             <miembros>
                 <miembro></miembro>
@@ -420,7 +420,7 @@
         </artista>
         <artista cod_artista="A05">
             <name>Bring Me the Horizon</name>
-            <año_debut>2004</año_debut>
+            <anyo_debut>2004</anyo_debut>
             <lugar_origen>Sheffield, England, United Kingdom</lugar_origen>
             <miembros>
                 <miembro></miembro>
@@ -429,7 +429,7 @@
         </artista>
         <artista cod_artista="A06">
             <name>Linkin Park</name>
-            <año_debut>2000</año_debut>
+            <anyo_debut>2000</anyo_debut>
             <lugar_origen>Agoura Hills, California, United States</lugar_origen>
             <miembros>
                 <miembro></miembro>
@@ -438,7 +438,7 @@
         </artista>
         <artista cod_artista="A07">
             <name>Motionless In White</name>
-            <año_debut>2005</año_debut>
+            <anyo_debut>2005</anyo_debut>
             <lugar_origen>Scranton, Pennsylvania, United States</lugar_origen>
             <miembros>
                 <miembro></miembro>
@@ -447,7 +447,7 @@
         </artista>
         <artista cod_artista="A08">
             <name>Guns N' Roses</name>
-            <año_debut>1985</año_debut>
+            <anyo_debut>1985</anyo_debut>
             <lugar_origen>Los Angeles, California, United States</lugar_origen>
             <miembros>
                 <miembro></miembro>
@@ -456,7 +456,7 @@
         </artista>
         <artista cod_artista="A09">
             <name>Megadeth</name>
-            <año_debut>1983</año_debut>
+            <anyo_debut>1983</anyo_debut>
             <lugar_origen>Los Angeles, California, United States</lugar_origen>
             <miembros>
                 <miembro></miembro>
@@ -465,7 +465,7 @@
         </artista>
         <artista cod_artista="A10">
             <name>Slipknot</name>
-            <año_debut>1995</año_debut>
+            <anyo_debut>1995</anyo_debut>
             <lugar_origen>Des Moines, Iowa, United States</lugar_origen>
             <miembros>
                 <miembro></miembro>
@@ -474,7 +474,7 @@
         </artista>
         <artista cod_artista="A11">
             <name>Scorpions</name>
-            <año_debut>1965</año_debut>
+            <anyo_debut>1965</anyo_debut>
             <lugar_origen>Hannover, Germany</lugar_origen>
             <miembros>
                 <miembro></miembro>
@@ -511,4 +511,4 @@
         </genero>
     </generos>
 
-</Tienda_discos>
+</tienda_discos>
