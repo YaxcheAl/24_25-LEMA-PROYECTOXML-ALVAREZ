@@ -386,27 +386,22 @@
             <name>Alicia Keys</name>
             <anyo_debut>2001</anyo_debut>
             <lugar_origen>New York, United States</lugar_origen>
-            <miembros>
-                <miembro></miembro>
-                <miembro></miembro>
-            </miembros>
         </artista>
         <artista cod_artista="A02">
             <name>Stevie Wonder</name>
             <anyo_debut>1961</anyo_debut>
             <lugar_origen>Saginaw, Michigan, United States</lugar_origen>
-            <miembros>
-                <miembro></miembro>
-                <miembro></miembro>
-            </miembros>
         </artista>
         <artista cod_artista="A03">
             <name>Avenged Sevenfold</name>
             <anyo_debut>1999</anyo_debut>
             <lugar_origen>Huntington Beach, California, United States</lugar_origen>
             <miembros>
-                <miembro></miembro>
-                <miembro></miembro>
+                <miembro>M. Shadows</miembro>
+                <miembro>Synyster Gates</miembro>
+                <miembro>Zacky Vengeance</miembro>
+                <miembro>Johnny Christ</miembro>
+                <miembro>Porto</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A04">
@@ -414,8 +409,10 @@
             <anyo_debut>1998</anyo_debut>
             <lugar_origen>Bridgend, Wales, United Kingdom</lugar_origen>
             <miembros>
-                <miembro></miembro>
-                <miembro></miembro>
+                <miembro>Matt Tuck</miembro>
+                <miembro>Michael Paget</miembro>
+                <miembro>Jason Bowld</miembro>
+                <miembro>Jamie Mathias</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A05">
@@ -423,8 +420,11 @@
             <anyo_debut>2004</anyo_debut>
             <lugar_origen>Sheffield, England, United Kingdom</lugar_origen>
             <miembros>
-                <miembro></miembro>
-                <miembro></miembro>
+                <miembro>Oliver Sykes</miembro>
+                <miembro>Lee Malia</miembro>
+                <miembro>Matt Kean</miembro>
+                <miembro>Matt Nicholls</miembro>
+                <miembro>Jordan Fish</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A06">
@@ -432,8 +432,12 @@
             <anyo_debut>2000</anyo_debut>
             <lugar_origen>Agoura Hills, California, United States</lugar_origen>
             <miembros>
-                <miembro></miembro>
-                <miembro></miembro>
+                <miembro>Mike Shinoda</miembro>
+                <miembro>Brad Delson</miembro>
+                <miembro>Dave &quot;Phoenix&quot; Farrell</miembro>
+                <miembro>Joe Hahn</miembro>
+                <miembro>Emily Armstrong</miembro>
+                <miembro>Colin Brittain</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A07">
@@ -441,8 +445,11 @@
             <anyo_debut>2005</anyo_debut>
             <lugar_origen>Scranton, Pennsylvania, United States</lugar_origen>
             <miembros>
-                <miembro></miembro>
-                <miembro></miembro>
+                <miembro>Chris &quot;Motionless&quot; Cerulli</miembro>
+                <miembro>Ryan Sitkowski</miembro>
+                <miembro>Ricky &quot;Horror&quot; Olson</miembro>
+                <miembro>Justin Morrow</miembro>
+                <miembro>Vinny Mauro</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A08">
@@ -450,8 +457,14 @@
             <anyo_debut>1985</anyo_debut>
             <lugar_origen>Los Angeles, California, United States</lugar_origen>
             <miembros>
-                <miembro></miembro>
-                <miembro></miembro>
+                <miembro>Axl Rose</miembro>
+                <miembro>Slash</miembro>
+                <miembro>Duff McKagan</miembro>
+                <miembro>Richard Fortus</miembro>
+                <miembro>Frank Ferrer</miembro>
+                <miembro>Ron &quot;Bumblefoot&quot; Thal</miembro>
+                <miembro>Dizzy Reed</miembro>
+                <miembro>Chris Pitman</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A09">
@@ -459,8 +472,10 @@
             <anyo_debut>1983</anyo_debut>
             <lugar_origen>Los Angeles, California, United States</lugar_origen>
             <miembros>
-                <miembro></miembro>
-                <miembro></miembro>
+                <miembro>Dave Mustaine</miembro>
+                <miembro>David Ellefson</miembro>
+                <miembro>Kiko Loureiro</miembro>
+                <miembro>Dirk Verbeuren</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A10">
@@ -468,8 +483,14 @@
             <anyo_debut>1995</anyo_debut>
             <lugar_origen>Des Moines, Iowa, United States</lugar_origen>
             <miembros>
-                <miembro></miembro>
-                <miembro></miembro>
+                <miembro>Corey Taylor</miembro>
+                <miembro>Jim Root</miembro>
+                <miembro>Mick Thomson</miembro>
+                <miembro>Shawn Crahan</miembro>
+                <miembro>Sid Wilson</miembro>
+                <miembro>Jay Weinberg</miembro>
+                <miembro>Alessandro Venturella</miembro>
+                <miembro>Michael Pfaff</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A11">
@@ -477,11 +498,24 @@
             <anyo_debut>1965</anyo_debut>
             <lugar_origen>Hannover, Germany</lugar_origen>
             <miembros>
-                <miembro></miembro>
-                <miembro></miembro>
+                <miembro>Rudolf Schenker</miembro>
+                <miembro>Klaus Meine</miembro>
+                <miembro>Matthias Jabs</miembro>
+                <miembro>Pawel Ma&#231;iwoda</miembro>
+                <miembro>Mikkey Dee</miembro>
             </miembros>
         </artista>
-
+        <artista cod_artista="A12">
+            <name>Queen</name>
+            <anyo_debut>1970</anyo_debut>
+            <lugar_origen>London, United Kindom</lugar_origen>
+            <miembros>
+                <miembro>Brian May</miembro>
+                <miembro>Roger Taylor</miembro>
+                <miembro>Freddie Mercury</miembro>
+                <miembro>John Deacon</miembro>
+            </miembros>
+        </artista>
     </artistas_discos>
 
     <generos cod_gen="G01">
