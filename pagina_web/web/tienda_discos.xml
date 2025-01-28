@@ -24,9 +24,8 @@
             <web>www.discosrockpop.com</web>
         </contacto>
     </informacion_tienda>
-
     <discos>
-        <disco cod_disco="01" cod_artista="" cod_gen="D01">
+        <disco cod_disco="C01" cod_artista="A10" cod_gen="G01">
             <nombre_disco>All Hope Is Gone</nombre_disco>
             <autor>Slipknot</autor>
             <fecha_lanzamiento>26/08/2008</fecha_lanzamiento>
@@ -97,149 +96,71 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="" cod_artista="" cod_gen="D02">
-            <nombre_disco></nombre_disco>
-            <autor> </autor>
-            <fecha_lanzamiento></fecha_lanzamiento>
-            <duracion medida="minuto"></duracion>
-            <formato></formato>
-            <caratula></caratula>
-            <link_compra></link_compra>
+        <disco cod_disco="C02" cod_artista="A04" cod_gen="D02">
+            <nombre_disco>Venom</nombre_disco>
+            <autor>Matt Tuck</autor>
+            <fecha_lanzamiento>14/08/2015</fecha_lanzamiento>
+            <duracion medida="minuto">57:44 min</duracion>
+
+            <!-- pregunta el formato tambien hay que ponerlo con el codigo VIN tipo el cod_gen de
+            los generos
+            o como lo he puesto esta bien?-->
+
+            <formato>VIN</formato>
+            <!-- OTRA PREGUNTA, PARA PONER LA IMAGEN NO HABRA QUE PONER LA RUTA RELATIVA NO? O TAL
+            COMO 
+            LE HE PUESTO ESTA BIEN?-->
+
+            <caratula>venom-bulletformyvalentine.jpg</caratula>
+            <link_compra>https://www.emp-online.es/p/The-poison/574199St.html/?gQT=2</link_compra>
             <canciones>
                 <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
+                    <titulo>V</titulo>
+                    <duracion medida="minuto">1:26</duracion>
                 </cancion>
                 <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
+                    <titulo>No Way Out </titulo>
+                    <duracion medida="minuto">3:53</duracion>
                 </cancion>
                 <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
+                    <titulo>Army of Noise</titulo>
+                    <duracion medida="minuto">4:18</duracion>
                 </cancion>
                 <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
+                    <titulo>Worthless</titulo>
+                    <duracion medida="minuto">3:18</duracion>
                 </cancion>
                 <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
+                    <titulo>You Want a Battle?</titulo>
+                    <duracion medida="minuto">4:14</duracion>
                 </cancion>
                 <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
+                    <titulo>Broken</titulo>
+                    <duracion medida="minuto">3:39</duracion>
                 </cancion>
                 <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
+                    <titulo>Venom</titulo>
+                    <duracion medida="minuto">3:54</duracion>
                 </cancion>
                 <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
+                    <titulo>The Harder the Heart (The Harder It Breaks)</titulo>
+                    <duracion medida="minuto">4:00</duracion>
                 </cancion>
                 <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
+                    <titulo>Skin</titulo>
+                    <duracion medida="minuto">3:59</duracion>
                 </cancion>
                 <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
+                    <titulo>Hell or High Water</titulo>
+                    <duracion medida="minuto">4:36</duracion>
                 </cancion>
                 <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
+                    <titulo>Pariah</titulo>
+                    <duracion medida="minuto">3:46</duracion>
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="" cod_artista="" cod_gen="D03">
-            <nombre_disco></nombre_disco>
-            <autor></autor>
-            <fecha_lanzamiento></fecha_lanzamiento>
-            <duracion medida="minuto"></duracion>
-            <formato></formato>
-            <caratula></caratula>
-            <link_compra></link_compra>
-            <canciones>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-            </canciones>
-        </disco>
-        <disco cod_disco="001" cod_artista="02" cod_gen="D04">
+        <disco cod_disco="C03" cod_artista="A02" cod_gen="G02">
             <nombre_disco>Music of My Mind</nombre_disco>
             <fecha_lanzamiento>1972-03-03</fecha_lanzamiento>
             <duracion medida="minuto">39:14</duracion>
@@ -294,7 +215,7 @@
             </canciones>
         </disco>
 
-        <disco cod_disco="002" cod_artista="01" cod_gen="D05">
+        <disco cod_disco="C04" cod_artista="A01" cod_gen="D05">
             <nombre_disco>The Definitive Collection</nombre_disco>
             <fecha_lanzamiento>2008-11-04</fecha_lanzamiento>
             <duracion medida="minuto">78:42</duracion>
@@ -363,6 +284,42 @@
                 </cancion>
             </canciones>
         </disco>
+
+        <!-- PLANTILLA PARA CREAR NUEVOS DISCOS-->
+
+        <disco cod_disco="C0" cod_artista="A0" cod_gen="G0">
+            <nombre_disco></nombre_disco>
+            <autor></autor>
+            <fecha_lanzamiento></fecha_lanzamiento>
+            <duracion medida="minuto"> </duracion>
+            <formato></formato>
+            <caratula></caratula>
+            <link_compra></link_compra>
+            <canciones>
+                <cancion>
+                    <titulo></titulo>
+                    <duracion medida="minuto"></duracion>
+                </cancion>
+            </canciones>
+        </disco>
+
+        <!-- hasta aqui la plantilla-->
+
+        <disco cod_disco="C05" cod_artista="A12" cod_gen="Rock">
+            <nombre_disco></nombre_disco>
+            <autor></autor>
+            <fecha_lanzamiento></fecha_lanzamiento>
+            <duracion medida="minuto"> </duracion>
+            <formato></formato>
+            <caratula></caratula>
+            <link_compra></link_compra>
+            <canciones>
+                <cancion>
+                    <titulo></titulo>
+                    <duracion medida="minuto"></duracion>
+                </cancion>
+            </canciones>
+        </disco>
     </discos>
     <formatos>
         <formato cod_form="CD">
@@ -387,7 +344,7 @@
             <name>Alicia Keys</name>
             <anyo_debut>2001</anyo_debut>
             <lugar_origen>New York, United States</lugar_origen>
-             <miembros>
+            <miembros>
                 <miembro>Alicia Keys</miembro>
             </miembros>
         </artista>
@@ -548,18 +505,25 @@
                 riffs, intense drumming techniques, and vocal styles that range from screaming and
                 shouting to clean singing.</descripcion>
         </genero>
-        <genero cod_gen="">
-            <nombre></nombre>
-            <descripcion></descripcion>
+        <genero cod_gen="G04">
+            <nombre>POP</nombre>
+            <descripcion>Pop music is characterized by catchy melodies, simple structures, and broad
+                appeal. It blends various styles like rock, And electronic. Pop songs often feature
+                relatable lyrics and repetitive hooks, making them memorable and accessible.</descripcion>
         </genero>
-        <genero cod_gen="">
-            <nombre></nombre>
-            <descripcion></descripcion>
+        <genero cod_gen="G05">
+            <nombre>Heavy Metal</nombre>
+            <descripcion>Heavy metal is known for its loud, aggressive sound and powerful guitar
+                riffs. It often features fast tempos, distorted guitars, and intense drumming.
+                Lyrics can explore dark themes like rebellion, fantasy, and personal struggles. The
+                genre has a strong, dedicated fanbase and has evolved into many subgenres.</descripcion>
         </genero>
-        <genero cod_gen="">
-            <nombre></nombre>
-            <descripcion></descripcion>
+        <genero cod_gen="G06">
+            <nombre>Rock</nombre>
+            <descripcion>Rock music is defined by its use of electric guitars, strong rhythms, and 
+            energetic performances. It often blends elements of blues, folk, and country, with lyrics
+             that cover a wide range of themes. Rock can range from soft ballads to high-energy 
+             anthems. The genre has been a major influence on modern music and culture.</descripcion>
         </genero>
     </generos>
-
 </tienda_discos>
