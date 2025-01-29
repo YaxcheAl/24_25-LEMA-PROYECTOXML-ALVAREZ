@@ -28,7 +28,7 @@
         <disco cod_disco="C01" cod_artista="A10" cod_gen="G01">
             <nombre_disco>All Hope Is Gone</nombre_disco>
             <autor>Slipknot</autor>
-            <fecha_lanzamiento>26/08/2008</fecha_lanzamiento>
+            <fecha_lanzamiento>2008/08/26</fecha_lanzamiento>
             <duracion medida="minuto">57:44 min </duracion>
             <formato>CD</formato>
             <caratula>allhopeisgone-slipknot.jpg</caratula>
@@ -99,7 +99,7 @@
         <disco cod_disco="C02" cod_artista="A04" cod_gen="D02">
             <nombre_disco>Venom</nombre_disco>
             <autor>Matt Tuck</autor>
-            <fecha_lanzamiento>14/08/2015</fecha_lanzamiento>
+            <fecha_lanzamiento>2015/08/14</fecha_lanzamiento>
             <duracion medida="minuto">57:44 min</duracion>
 
             <!-- pregunta el formato tambien hay que ponerlo con el codigo VIN tipo el cod_gen de
@@ -306,17 +306,92 @@
         <!-- hasta aqui la plantilla-->
 
         <disco cod_disco="C05" cod_artista="A12" cod_gen="Rock">
-            <nombre_disco></nombre_disco>
-            <autor></autor>
-            <fecha_lanzamiento></fecha_lanzamiento>
-            <duracion medida="minuto"> </duracion>
-            <formato></formato>
-            <caratula></caratula>
-            <link_compra></link_compra>
+            <nombre_disco>Bohemian Rhapsody: The Original Soundtrack</nombre_disco>
+            <autor>Queen</autor>
+            <fecha_lanzamiento>2018-11-19</fecha_lanzamiento>
+            <duracion medida="minuto">66:22</duracion>
+            <formato>CD</formato>
+            <caratula>bohemianrhapsody-queen.jpg</caratula>
+            <link_compra>ttps://www.discogs.com/es/release/15417745-Queen-Bohemian-Rhapsody-The-Original-Soundtrack</link_compra>
             <canciones>
                 <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
+                    <titulo>Somebody to love</titulo>
+                    <duracion medida="minuto">4:55</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Doing All Right... Revisited</titulo>
+                    <duracion medida="minuto">3:16</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Keep Yourself Alive</titulo>
+                    <duracion medida="minuto">3:56</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Bohemian Rhapsody</titulo>
+                    <duracion medida="minuto">5:55</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Now I'm Here</titulo>
+                    <duracion medida="minuto">4:25</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>Crazy Little Thing Called Love</titulo>
+                    <duracion medida="minuto">2:43</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>Love of my Life</titulo>
+                    <duracion medida="minuto">4:28</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>We will rock you</titulo>
+                    <duracion medida="minuto">2:09</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Another One Bites the Dust</titulo>
+                    <duracion medida="minuto">3:34</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>I Want to Break Free</titulo>
+                    <duracion medida="minuto">3:43</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>We Are the Champions</titulo>
+                    <duracion medida="minuto">3:57</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Don't Stop Me Now</titulo>
+                    <duracion medida="minuto">4:31</duracion>
+                </cancion>
+            </canciones>
+        </disco>
+    <disco cod_disco="C06" cod_artista="A08" cod_gen="G05">
+            <nombre_disco>Appetite for Destruction</nombre_disco>
+            <autor>Guns N' Roses</autor>
+            <fecha_lanzamiento>1987-07-21</fecha_lanzamiento>
+            <duracion medida="minuto">23:55</duracion>
+            <formato>VIN</formato>
+            <caratula>appetitefordestruction-gunsnroses.jpg</caratula>
+            <link_compra>www.fnac.es/a1750688/Guns-N-Roses-Appetite-for-Destruction-Disco</link_compra>
+            <canciones>
+                <cancion>
+                    <titulo>It's So Easy</titulo>
+                    <duracion medida="minuto">3:23</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>Welcome to the Jungle</titulo>
+                    <duracion medida="minuto">4:33</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>Sweet Child o'Mine</titulo>
+                    <duracion medida="minuto">5:56</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>Paradise City</titulo>
+                    <duracion medida="minuto">6:48</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>Nightrain</titulo>
+                    <duracion medida="minuto">4:25</duracion>
                 </cancion>
             </canciones>
         </disco>
