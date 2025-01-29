@@ -27,7 +27,6 @@
     <discos>
         <disco cod_disco="C01" cod_artista="A10" cod_gen="G01">
             <nombre_disco>All Hope Is Gone</nombre_disco>
-            <autor>Slipknot</autor>
             <fecha_lanzamiento>2008-08-26</fecha_lanzamiento> 
             <duracion medida="minuto">57:44</duracion>
             <formato>CD</formato>
@@ -96,20 +95,19 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C02" cod_artista="A04" cod_gen="D02">
+        <disco cod_disco="C02" cod_artista="A04" cod_gen="G03">
             <nombre_disco>Venom</nombre_disco>
-            <autor>Matt Tuck</autor>
             <fecha_lanzamiento>2008-08-14</fecha_lanzamiento>
             <duracion medida="minuto">57:44</duracion>
 
             <!-- pregunta el formato tambien hay que ponerlo con el codigo VIN tipo el cod_gen de
             los generos
-            o como lo he puesto esta bien?-->
+            o como lo he puesto esta bien? el formato esta bien así-->
 
             <formato>VIN</formato>
             <!-- OTRA PREGUNTA, PARA PONER LA IMAGEN NO HABRA QUE PONER LA RUTA RELATIVA NO? O TAL
             COMO 
-            LE HE PUESTO ESTA BIEN?-->
+            LE HE PUESTO ESTA BIEN? así está bien-->
 
             <caratula>venom-bulletformyvalentine.jpg</caratula>
             <link_compra>www.emp-online.es/p/The-poison/574199St.html/?gQT=2</link_compra>
@@ -214,8 +212,7 @@
                 </cancion>
             </canciones>
         </disco>
-
-        <disco cod_disco="C04" cod_artista="A01" cod_gen="D05">
+        <disco cod_disco="C04" cod_artista="A01" cod_gen="G02">
             <nombre_disco>The Definitive Collection</nombre_disco>
             <fecha_lanzamiento>2008-11-04</fecha_lanzamiento>
             <duracion medida="minuto">78:42</duracion>
@@ -224,12 +221,12 @@
             <link_compra>www.amazon.com/dp/B001A6H0Q6</link_compra>
             <canciones>
                 <cancion>
-                    <titulo>Fallin'</titulo>
+                    <titulo>Fallin&#39;</titulo>
                     <duracion medida="minuto">3:29</duracion>
                 </cancion>
 
                 <cancion>
-                    <titulo>If I Ain't Got You</titulo>
+                    <titulo>If I Ain&#39;t Got You</titulo>
                     <duracion medida="minuto">3:49</duracion>
                 </cancion>
 
@@ -244,7 +241,7 @@
                 </cancion>
 
                 <cancion>
-                    <titulo>Un-Thinkable (I'm Ready)</titulo>
+                    <titulo>Un-Thinkable (I&#39;m Ready)</titulo>
                     <duracion medida="minuto">4:38</duracion>
                 </cancion>
 
@@ -259,7 +256,7 @@
                 </cancion>
 
                 <cancion>
-                    <titulo>Like You'll Never See Me Again</titulo>
+                    <titulo>Like You&#39;ll Never See Me Again</titulo>
                     <duracion medida="minuto">4:49</duracion>
                 </cancion>
 
@@ -289,7 +286,6 @@
 
         <disco cod_disco="C0" cod_artista="A0" cod_gen="G0">
             <nombre_disco></nombre_disco>
-            <autor></autor>
             <fecha_lanzamiento></fecha_lanzamiento>
             <duracion medida="minuto"> </duracion>
             <formato></formato>
@@ -305,9 +301,8 @@
 
         <!-- hasta aqui la plantilla-->
 
-        <disco cod_disco="C05" cod_artista="A12" cod_gen="Rock">
+        <disco cod_disco="C05" cod_artista="A12" cod_gen="G06">
             <nombre_disco>Bohemian Rhapsody: The Original Soundtrack</nombre_disco>
-            <autor>Queen</autor>
             <fecha_lanzamiento>2018-11-19</fecha_lanzamiento>
             <duracion medida="minuto">66:22</duracion>
             <formato>CD</formato>
@@ -331,7 +326,7 @@
                     <duracion medida="minuto">5:55</duracion>
                 </cancion>
                 <cancion>
-                    <titulo>Now I'm Here</titulo>
+                    <titulo>Now I&#39;m Here</titulo>
                     <duracion medida="minuto">4:25</duracion>
                 </cancion>
                 <cancion>
@@ -364,9 +359,8 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C06" cod_artista="A08" cod_gen="G05">
+        <disco cod_disco="C06" cod_artista="A08" cod_gen="G06">
             <nombre_disco>Appetite for Destruction</nombre_disco>
-            <autor>Guns N' Roses</autor>
             <fecha_lanzamiento>1987-07-21</fecha_lanzamiento>
             <duracion medida="minuto">23:55</duracion>
             <formato>VIN</formato>
@@ -374,7 +368,7 @@
             <link_compra>www.fnac.es/a1750688/Guns-N-Roses-Appetite-for-Destruction-Disco</link_compra>
             <canciones>
                 <cancion>
-                    <titulo>It's So Easy</titulo>
+                    <titulo>It&#39;s So Easy</titulo>
                     <duracion medida="minuto">3:23</duracion>
                 </cancion>
                 <cancion>
@@ -395,9 +389,8 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C07" cod_artista="A05" cod_gen="G01">
+        <disco cod_disco="C07" cod_artista="A05" cod_gen="G03">
             <nombre_disco>Sempiternal</nombre_disco>
-            <autor>Terry Date</autor>
             <fecha_lanzamiento>2013-03-1</fecha_lanzamiento>
             <duracion medida="minuto">45:31</duracion>
             <formato>CD</formato>
@@ -450,9 +443,8 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C08" cod_artista="A03" cod_gen="G05">
+        <disco cod_disco="C08" cod_artista="A03" cod_gen="G03">
             <nombre_disco>Waking the Fallen</nombre_disco>
-            <autor>Andrew Murdock</autor>
             <fecha_lanzamiento>2003-08-26</fecha_lanzamiento>
             <duracion medida="minuto">68:36</duracion>
             <formato>BLU</formato>
@@ -492,11 +484,11 @@
                     <duracion medida="minuto">6:12</duracion>
                 </cancion>
                 <cancion>
-                    <titulo>I Won't See You Tonight, Part 1</titulo>
+                    <titulo>I Won&#39;t See You Tonight, Part 1</titulo>
                     <duracion medida="minuto">9:00</duracion>
                 </cancion>
                  <cancion>
-                    <titulo>I Won't See You Tonight, Part 2</titulo>
+                    <titulo>I Won&#39;t See You Tonight, Part 2</titulo>
                     <duracion medida="minuto">4:47</duracion>
                 </cancion>
                  <cancion>
@@ -506,6 +498,520 @@
                  <cancion>
                     <titulo>And All Things Will End</titulo>
                     <duracion medida="minuto">6:19</duracion>
+                </cancion>
+            </canciones>
+        </disco>
+        <disco cod_disco="C09" cod_artista="A03" cod_gen="G03">
+            <nombre_disco>City Of Evil</nombre_disco>
+            <fecha_lanzamiento>2005</fecha_lanzamiento>
+            <duracion medida="minuto">72:50</duracion>
+            <formato>cd</formato>
+            <caratula>cityofevil-avengedsevenfold.jpg</caratula>
+            <link_compra>https://www.amazon.es/City-Evil-Avenged-Sevenfold/dp/B000EBCEBI</link_compra>
+            <canciones>
+                <cancion>
+                    <titulo>Beast And The Harlot</titulo>
+                    <duracion medida="minuto">5:40</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Burn It Down</titulo>
+                    <duracion medida="minuto">4:59</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Blinded In Chains</titulo>
+                    <duracion medida="minuto">6:34</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Bat Country</titulo>
+                    <duracion medida="minuto">5:13</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Trashed And Scattered</titulo>
+                    <duracion medida="minuto">5:50</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Seize The Day</titulo>
+                    <duracion medida="minuto">5:32</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Sidewinder</titulo>
+                    <duracion medida="minuto">7:02</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>The Wickend End</titulo>
+                    <duracion medida="minuto">7:11</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Strength Of The World</titulo>
+                    <duracion medida="minuto">9:15</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Betrayed</titulo>
+                    <duracion medida="minuto">6:48</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>M.I.A</titulo>
+                    <duracion medida="minuto">8:46</duracion>
+                </cancion>
+            </canciones>
+        </disco>
+        <disco cod_disco="C10" cod_artista="A03" cod_gen="G05">
+            <nombre_disco>Diamonds In The Rough</nombre_disco>
+            <fecha_lanzamiento>2008</fecha_lanzamiento>
+            <duracion medida="minuto"></duracion>
+            <formato>CD</formato>
+            <caratula>diamondsintherough-avengedsevenfold.jpg</caratula>
+            <link_compra>https://www.amazon.es/Avenged-Sevenfold-Diamonds-Rough-LP-Vinilo/dp/B083X6NKXT</link_compra>
+            <canciones>
+                <cancion>
+                    <titulo>Demons</titulo>
+                    <duracion medida="minuto">6:11</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Girl I Know</titulo>
+                    <duracion medida="minuto">4:24</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Crossroads</titulo>
+                    <duracion medida="minuto">4:30</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Flash Of The Blade</titulo>
+                    <duracion medida="minuto">3:01</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Until The End</titulo>
+                    <duracion medida="minuto">4:45</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Tension</titulo>
+                    <duracion medida="minuto">4:49</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Walk</titulo>
+                    <duracion medida="minuto">5:21</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>The Fight</titulo>
+                    <duracion medida="minuto">4:07</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Dancing Dead</titulo>
+                    <duracion medida="minuto">5:51</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Almost Easy &#40;Chris Lord-Alge Mix&#41;</titulo>
+                    <duracion medida="minuto">3:53</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Afterlife&#40;Alternate Version&#41;</titulo>
+                    <duracion medida="minuto">5:53</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>St.James</titulo>
+                    <duracion medida="minuto">5:02</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Set Me Free</titulo>
+                    <duracion medida="minuto">6:21</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>4:00 AM</titulo>
+                    <duracion medida="minuto">5:00</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Lost It All</titulo>
+                    <duracion medida="minuto">3:51</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Paranoid</titulo>
+                    <duracion medida="minuto">2:42</duracion>
+                </cancion>
+            </canciones>
+        </disco>
+        <disco cod_disco="C11" cod_artista="A11" cod_gen="G06">
+            <nombre_disco>Love At First Sting</nombre_disco>
+            <fecha_lanzamiento>1984</fecha_lanzamiento>
+            <duracion medida="minuto">41</duracion>
+            <formato>Vinilo</formato>
+            <caratula>loveatfirststing-scorpions.jpg</caratula>
+            <link_compra>https://www.amazon.es/Love-At-First-Sting-Vinilo/dp/B016ZXZ7OO</link_compra>
+            <canciones>
+                <cancion>
+                    <titulo>Bad Boys Running Wild</titulo>
+                    <duracion medida="minuto">3:56</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Rock You Like A Hurricane</titulo>
+                    <duracion medida="minuto">4:12</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>I&#39;m Leaving You</titulo>
+                    <duracion medida="minuto">4:17</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Coming Home</titulo>
+                    <duracion medida="minuto">4:59</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>The Same Thrill</titulo>
+                    <duracion medida="minuto">3:31</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Big City Nights</titulo>
+                    <duracion medida="minuto">4:09</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>As Soon As The Good Times Roll</titulo>
+                    <duracion medida="minuto">5:03</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Crossfire</titulo>
+                    <duracion medida="minuto">4:36</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Still Loving You</titulo>
+                    <duracion medida="minuto">6:27</duracion>
+                </cancion>
+            </canciones>
+        </disco>
+        <disco cod_disco="C12" cod_artista="A06" cod_gen="G01">
+            <nombre_disco>Meteora</nombre_disco>
+            <fecha_lanzamiento>2003</fecha_lanzamiento>
+            <duracion medida="minuto">36</duracion>
+            <formato>Blu-ray</formato>
+            <caratula>meteora-linkinpark.jpg</caratula>
+            <link_compra>https://www.amazon.es/Meteora-Jewelcase-Linkin-Park/dp/B00008S7JP</link_compra>
+            <canciones>
+                <cancion>
+                    <titulo>Foreword</titulo>
+                    <duracion medida="minuto">0:13</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Don&#39;t Stay</titulo>
+                    <duracion medida="minuto">3:08</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Somewhere I Belong</titulo>
+                    <duracion medida="minuto">3:34</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Lying From You</titulo>
+                    <duracion medida="minuto">2:55</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Hit The Floor</titulo>
+                    <duracion medida="minuto">2:44</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Easier To Run</titulo>
+                    <duracion medida="minuto">3:24</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Faint</titulo>
+                    <duracion medida="minuto">2:42</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Figure.09</titulo>
+                    <duracion medida="minuto">3:17</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Breaking The Habit</titulo>
+                    <duracion medida="minuto">3:16</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>From The Inside</titulo>
+                    <duracion medida="minuto">2:55</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Nobody&#39;s Linstening</titulo>
+                    <duracion medida="minuto">2:59</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Session</titulo>
+                    <duracion medida="minuto">2:24</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Numb</titulo>
+                    <duracion medida="minuto">3:07</duracion>
+                </cancion>
+            </canciones>
+        </disco>
+        <disco cod_disco="C13" cod_artista="A03" cod_gen="G03">
+            <nombre_disco>Nightmare</nombre_disco>
+            <fecha_lanzamiento>2010</fecha_lanzamiento>
+            <duracion medida="minuto">66:50</duracion>
+            <formato>Vinilo</formato>
+            <caratula>nightmare-avengedsevenfold.jpg</caratula>
+            <link_compra>https://www.amazon.es/Nightmare-Avenged-Sevenfold/dp/B003XKDFCO</link_compra>
+            <canciones>
+                <cancion>
+                    <titulo>Nightmare</titulo>
+                    <duracion medida="minuto">6:14</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Welcome To The Family</titulo>
+                    <duracion medida="minuto">4:05</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Danger Line</titulo>
+                    <duracion medida="minuto">5:28</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Buried Alive</titulo>
+                    <duracion medida="minuto">6:44</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Natural Born Killer</titulo>
+                    <duracion medida="minuto">5:15</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>So Far Away</titulo>
+                    <duracion medida="minuto">5:26</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>God Hates Us</titulo>
+                    <duracion medida="minuto">5:18</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Victim</titulo>
+                    <duracion medida="minuto">7:30</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Tonight The World Dies</titulo>
+                    <duracion medida="minuto">4:41</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Fiction</titulo>
+                    <duracion medida="minuto">5:13</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Save Me</titulo>
+                    <duracion medida="minuto">10:56</duracion>
+                </cancion>
+            </canciones>
+        </disco>
+        <disco cod_disco="C14" cod_artista="A09" cod_gen="G07">
+            <nombre_disco>Rust in Peace</nombre_disco>
+            <fecha_lanzamiento>1990</fecha_lanzamiento>
+            <duracion medida="minuto">45:10</duracion>
+            <formato>CD</formato>
+            <caratula>rustinpeace-megadeth.jpg</caratula>
+            <link_compra>https://www.amazon.com/Rust-Peace-Megadeth/dp/B000002UUX</link_compra>
+            <canciones>
+                <cancion>
+                    <titulo>Holy Wars...The Punishment Due</titulo>
+                    <duracion medida="minuto">6:32</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>Hangar 18</titulo>
+                    <duracion medida="minuto">9:06</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>Take No Prisoners</titulo>
+                    <duracion medida="minuto">3:27</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>Five Magics</titulo>
+                    <duracion medida="minuto">5:39</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>Poison Was the Cure</titulo>
+                    <duracion medida="minuto">2:56</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>Lucretia</titulo>
+                    <duracion medida="minuto">4:36</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>Tornado Of Souls</titulo>
+                    <duracion medida="minuto">5:19</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>Dawn Patrol</titulo>
+                    <duracion medida="minuto">1:51</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>Rust In Peace...Polaris</titulo>
+                    <duracion medida="minuto">5:44</duracion>
+                </cancion>
+            </canciones>
+        </disco>
+        <disco cod_disco="C15" cod_artista="A07" cod_gen="G03">
+            <nombre_disco>Scoring The End Of The World</nombre_disco>
+            <fecha_lanzamiento>2022</fecha_lanzamiento>
+            <duracion medida="minuto">49:51</duracion>
+            <formato>Blu-ray</formato>
+            <caratula>scoringtheendoftheworld-motionlessinwhite.jpg</caratula>
+            <link_compra>https://www.amazon.es/Motionless-White-Scoring-End-World/dp/B09VLK12F5</link_compra>
+            <canciones>
+                <cancion>
+                    <titulo>Meltdown</titulo>
+                    <duracion medida="minuto">4:28</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Sign Of Life</titulo>
+                    <duracion medida="minuto">3:40</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Werewolf</titulo>
+                    <duracion medida="minuto">3:32</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Porcelain</titulo>
+                    <duracion medida="minuto">3:36</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Slaughterhouse &#40;feat. Bryan Garris of Knocked Loose&#41;</titulo>
+                    <duracion medida="minuto">4:23</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Masterpiece</titulo>
+                    <duracion medida="minuto">3:26</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Cause Of Death</titulo>
+                    <duracion medida="minuto">4:03</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>We Become The Night</titulo>
+                    <duracion medida="minuto">3:31</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Burned At Both Ends II</titulo>
+                    <duracion medida="minuto">3:57</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>B.F.B.T.G.: Corpse Nation</titulo>
+                    <duracion medida="minuto">3:34</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Cyberhex</titulo>
+                    <duracion medida="minuto">4:35</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Red, White &amp; Boom &#40;feat. Caleb Shomo&#41;</titulo>
+                    <duracion medida="minuto">3:18</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Scoring the End of the World &#40;feat. Mick Gordon&#41;</titulo>
+                    <duracion medida="minuto">3:48</duracion>
+                </cancion>
+            </canciones>
+        </disco>
+        <disco cod_disco="C16" cod_artista="A05" cod_gen="G03">
+            <nombre_disco>That&#39;s The Spirit</nombre_disco>
+            <fecha_lanzamiento>2015</fecha_lanzamiento>
+            <duracion medida="minuto">45:00</duracion>
+            <formato>CD</formato>
+            <caratula>thatsthespirit-bringmethehorizon.jpg</caratula>
+            <link_compra>https://www.amazon.es/Thats-Spirit-Bring-Me-Horizon/dp/B012BCJ27G</link_compra>
+            <canciones>
+                <cancion>
+                    <titulo>Doomed</titulo>
+                    <duracion medida="minuto">4:34</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Happy Song</titulo>
+                    <duracion medida="minuto">3:59</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Throne</titulo>
+                    <duracion medida="minuto">3:11</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>True Friends</titulo>
+                    <duracion medida="minuto">3:52</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Follow You</titulo>
+                    <duracion medida="minuto">3:51</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>What You Need</titulo>
+                    <duracion medida="minuto">4:12</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Avalanche</titulo>
+                    <duracion medida="minuto">4:22</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Run</titulo>
+                    <duracion medida="minuto">3:42</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Drown</titulo>
+                    <duracion medida="minuto">3:41</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Blasphemy</titulo>
+                    <duracion medida="minuto">4:35</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Oh No</titulo>
+                    <duracion medida="minuto">5:01</duracion>
+                </cancion>
+            </canciones>
+        </disco>
+        <disco cod_disco="C17" cod_artista="A04" cod_gen="G03">
+            <nombre_disco>The Poison</nombre_disco>
+            <fecha_lanzamiento>1999</fecha_lanzamiento>
+            <duracion medida="minuto">48:45</duracion>
+            <formato>Vinilo</formato>
+            <caratula>thepoison-bulletformyvalentine.jpg</caratula>
+            <link_compra>https://www.amazon.es/Poison-Bullet-My-Valentine/dp/B000B5253E</link_compra>
+            <canciones>
+                <cancion>
+                    <titulo>Intro</titulo>
+                    <duracion medida="minuto">0:14</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Her Voice Resides</titulo>
+                    <duracion medida="minuto">4:20</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>4 Words &#40;To Choke Upon&#41;</titulo>
+                    <duracion medida="minuto">3:41</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Tears Don&#39;t Fall</titulo>
+                    <duracion medida="minuto">4:16</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Suffocating Under Words of Sorrow &#40;What Can I Do&#41;</titulo>
+                    <duracion medida="minuto">3:44</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Hit the Floor</titulo>
+                    <duracion medida="minuto">3:28</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>All These Things I Hate &#40;Revolve Around Me&#41;</titulo>
+                    <duracion medida="minuto">3:45</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Hand of Blood</titulo>
+                    <duracion medida="minuto">3:52</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Room 409</titulo>
+                    <duracion medida="minuto">4:01</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>The Poison</titulo>
+                    <duracion medida="minuto">3:48</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>10 Years Today</titulo>
+                    <duracion medida="minuto">3:55</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Cries in Vain</titulo>
+                    <duracion medida="minuto">4:44</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>The End</titulo>
+                    <duracion medida="minuto">4:57</duracion>
                 </cancion>
             </canciones>
         </disco>
@@ -714,6 +1220,12 @@
                 lyrics that cover a wide range of themes. Rock can range from soft ballads to
                 high-energy anthems. The genre has been a major influence on modern music and
                 culture.</descripcion>
+        </genero>
+        <genero cod_gen="G07">
+            <nombre_g conocido="SI" >Thrash Metal</nombre_g>
+            <descripcion>Thrash metal is a subgenre of heavy metal that emerged in the early 1980s, 
+            characterized by its fast tempo, aggressive guitar riffs, and politically charged lyrics. 
+            It combines the drum beats of hardcore punk with the guitar style of the new wave of British heavy metal.</descripcion>
         </genero>
     </generos>
 </tienda_discos>

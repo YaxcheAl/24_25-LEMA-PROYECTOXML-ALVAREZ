@@ -27,7 +27,6 @@
 <!ATTLIST disco cod_artista CDATA #REQUIRED>
 <!ATTLIST disco cod_gen NMTOKEN #REQUIRED>
 <!ELEMENT nombre_disco (#PCDATA)>
-<!ELEMENT autor (#PCDATA)>
 <!ELEMENT fecha_lanzamiento (#PCDATA)>
 
 <!-- CAMBIO 1 -->
