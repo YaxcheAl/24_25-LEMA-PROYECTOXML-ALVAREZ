@@ -28,8 +28,8 @@
         <disco cod_disco="C01" cod_artista="A10" cod_gen="G01">
             <nombre_disco>All Hope Is Gone</nombre_disco>
             <autor>Slipknot</autor>
-            <fecha_lanzamiento>2008/08/26</fecha_lanzamiento>
-            <duracion medida="minuto">57:44 min </duracion>
+            <fecha_lanzamiento>2008-08-26</fecha_lanzamiento> 
+            <duracion medida="minuto">57:44</duracion>
             <formato>CD</formato>
             <caratula>allhopeisgone-slipknot.jpg</caratula>
             <link_compra>www.fnac.es/a218771/Slipknot-All-Hope-Is-Gone</link_compra>
@@ -99,8 +99,8 @@
         <disco cod_disco="C02" cod_artista="A04" cod_gen="D02">
             <nombre_disco>Venom</nombre_disco>
             <autor>Matt Tuck</autor>
-            <fecha_lanzamiento>2015/08/14</fecha_lanzamiento>
-            <duracion medida="minuto">57:44 min</duracion>
+            <fecha_lanzamiento>2008-08-14</fecha_lanzamiento>
+            <duracion medida="minuto">57:44</duracion>
 
             <!-- pregunta el formato tambien hay que ponerlo con el codigo VIN tipo el cod_gen de
             los generos
@@ -112,7 +112,7 @@
             LE HE PUESTO ESTA BIEN?-->
 
             <caratula>venom-bulletformyvalentine.jpg</caratula>
-            <link_compra>https://www.emp-online.es/p/The-poison/574199St.html/?gQT=2</link_compra>
+            <link_compra>www.emp-online.es/p/The-poison/574199St.html/?gQT=2</link_compra>
             <canciones>
                 <cancion>
                     <titulo>V</titulo>
@@ -312,7 +312,7 @@
             <duracion medida="minuto">66:22</duracion>
             <formato>CD</formato>
             <caratula>bohemianrhapsody-queen.jpg</caratula>
-            <link_compra>ttps://www.discogs.com/es/release/15417745-Queen-Bohemian-Rhapsody-The-Original-Soundtrack</link_compra>
+            <link_compra>www.discogs.com/es/release/15417745-Queen-Bohemian-Rhapsody-The-Original-Soundtrack</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Somebody to love</titulo>
@@ -334,15 +334,15 @@
                     <titulo>Now I'm Here</titulo>
                     <duracion medida="minuto">4:25</duracion>
                 </cancion>
-                 <cancion>
+                <cancion>
                     <titulo>Crazy Little Thing Called Love</titulo>
                     <duracion medida="minuto">2:43</duracion>
                 </cancion>
-                 <cancion>
+                <cancion>
                     <titulo>Love of my Life</titulo>
                     <duracion medida="minuto">4:28</duracion>
                 </cancion>
-                 <cancion>
+                <cancion>
                     <titulo>We will rock you</titulo>
                     <duracion medida="minuto">2:09</duracion>
                 </cancion>
@@ -364,7 +364,7 @@
                 </cancion>
             </canciones>
         </disco>
-    <disco cod_disco="C06" cod_artista="A08" cod_gen="G05">
+        <disco cod_disco="C06" cod_artista="A08" cod_gen="G05">
             <nombre_disco>Appetite for Destruction</nombre_disco>
             <autor>Guns N' Roses</autor>
             <fecha_lanzamiento>1987-07-21</fecha_lanzamiento>
@@ -377,21 +377,135 @@
                     <titulo>It's So Easy</titulo>
                     <duracion medida="minuto">3:23</duracion>
                 </cancion>
-                 <cancion>
+                <cancion>
                     <titulo>Welcome to the Jungle</titulo>
                     <duracion medida="minuto">4:33</duracion>
                 </cancion>
-                 <cancion>
+                <cancion>
                     <titulo>Sweet Child o'Mine</titulo>
                     <duracion medida="minuto">5:56</duracion>
                 </cancion>
-                 <cancion>
+                <cancion>
                     <titulo>Paradise City</titulo>
                     <duracion medida="minuto">6:48</duracion>
                 </cancion>
-                 <cancion>
+                <cancion>
                     <titulo>Nightrain</titulo>
                     <duracion medida="minuto">4:25</duracion>
+                </cancion>
+            </canciones>
+        </disco>
+        <disco cod_disco="C07" cod_artista="A05" cod_gen="G01">
+            <nombre_disco>Sempiternal</nombre_disco>
+            <autor>Terry Date</autor>
+            <fecha_lanzamiento>2013-03-1</fecha_lanzamiento>
+            <duracion medida="minuto">45:31</duracion>
+            <formato>CD</formato>
+            <caratula>sempiternal-bringmethehorizon.jpg</caratula>
+            <link_compra>www.amazon.es/Sempiternal-Bring-Me-Horizon/dp/B00C57DFY4</link_compra>
+            <canciones>
+                <cancion>
+                    <titulo>Can You Feel My Heart</titulo>
+                    <duracion medida="minuto">3:47</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>The House of Wolves</titulo>
+                    <duracion medida="minuto">3:25</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Empire</titulo>
+                    <duracion medida="minuto">3:45</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Sleepwalking</titulo>
+                    <duracion medida="minuto">3:50</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Go to Hell, for Heaven's Sake</titulo>
+                    <duracion medida="minuto">4:02</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Shadows Moses</titulo>
+                    <duracion medida="minuto">4:03</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Seen it All Before</titulo>
+                    <duracion medida="minuto">4:07</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Crooked Young</titulo>
+                    <duracion medida="minuto">3:34</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>And the Snakes Start to Sing</titulo>
+                    <duracion medida="minuto">5:01</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Antivist</titulo>
+                    <duracion medida="minuto">3:13</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Hospital for Souls</titulo>
+                    <duracion medida="minuto">6:44</duracion>
+                </cancion>
+            </canciones>
+        </disco>
+        <disco cod_disco="C08" cod_artista="A03" cod_gen="G05">
+            <nombre_disco>Waking the Fallen</nombre_disco>
+            <autor>Andrew Murdock</autor>
+            <fecha_lanzamiento>2003-08-26</fecha_lanzamiento>
+            <duracion medida="minuto">68:36</duracion>
+            <formato>BLU</formato>
+            <caratula>wakingthefallen-avengedsevenfold.jpg</caratula>
+            <link_compra>www.iberlibro.com/9781774440148/Dead-Man-Walking-Fallen-Men-1774440148/plp</link_compra>
+            <canciones>
+                <cancion>
+                    <titulo>Waking the Fallen</titulo>
+                    <duracion medida="minuto">1:44</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Unholy Confessions</titulo>
+                    <duracion medida="minuto">4:45</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Chapter Four</titulo>
+                    <duracion medida="minuto">5:45</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Remenissions</titulo>
+                    <duracion medida="minuto">6:09</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Desecrate Through Reverance</titulo>
+                    <duracion medida="minuto">5:40</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Eternal Rest</titulo>
+                    <duracion medida="minuto">5:13</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Second Heartbea</titulo>
+                    <duracion medida="minuto">7:02</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>Radiant Eclipse</titulo>
+                    <duracion medida="minuto">6:12</duracion>
+                </cancion>
+                <cancion>
+                    <titulo>I Won't See You Tonight, Part 1</titulo>
+                    <duracion medida="minuto">9:00</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>I Won't See You Tonight, Part 2</titulo>
+                    <duracion medida="minuto">4:47</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>Clairvoyant Disease</titulo>
+                    <duracion medida="minuto">5:02</duracion>
+                </cancion>
+                 <cancion>
+                    <titulo>And All Things Will End</titulo>
+                    <duracion medida="minuto">6:19</duracion>
                 </cancion>
             </canciones>
         </disco>
@@ -420,7 +534,7 @@
             <anyo_debut>2001</anyo_debut>
             <lugar_origen>New York, United States</lugar_origen>
             <miembros>
-                <miembro>Alicia Keys</miembro>
+                <miembro papel="PRINCIPAL">Alicia Keys</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A02">
@@ -428,7 +542,7 @@
             <anyo_debut>1961</anyo_debut>
             <lugar_origen>Saginaw, Michigan, United States</lugar_origen>
             <miembros>
-                <miembro>Stevie Wonder</miembro>
+                <miembro papel="PRINCIPAL">Stevie Wonder</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A03">
@@ -436,11 +550,11 @@
             <anyo_debut>1999</anyo_debut>
             <lugar_origen>Huntington Beach, California, United States</lugar_origen>
             <miembros>
-                <miembro>M. Shadows</miembro>
-                <miembro>Synyster Gates</miembro>
-                <miembro>Zacky Vengeance</miembro>
-                <miembro>Johnny Christ</miembro>
-                <miembro>Porto</miembro>
+                <miembro papel="PRINCIPAL">M. Shadows</miembro>
+                <miembro papel="OTRO">Synyster Gates</miembro>
+                <miembro papel="OTRO">Zacky Vengeance</miembro>
+                <miembro papel="OTRO">Johnny Christ</miembro>
+                <miembro papel="OTRO">Porto</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A04">
@@ -448,10 +562,10 @@
             <anyo_debut>1998</anyo_debut>
             <lugar_origen>Bridgend, Wales, United Kingdom</lugar_origen>
             <miembros>
-                <miembro>Matt Tuck</miembro>
-                <miembro>Michael Paget</miembro>
-                <miembro>Jason Bowld</miembro>
-                <miembro>Jamie Mathias</miembro>
+                <miembro papel="PRINCIPAL">Matt Tuck</miembro>
+                <miembro papel="OTRO">Michael Paget</miembro>
+                <miembro papel="OTRO">Jason Bowld</miembro>
+                <miembro papel="OTRO">Jamie Mathias</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A05">
@@ -459,11 +573,11 @@
             <anyo_debut>2004</anyo_debut>
             <lugar_origen>Sheffield, England, United Kingdom</lugar_origen>
             <miembros>
-                <miembro>Oliver Sykes</miembro>
-                <miembro>Lee Malia</miembro>
-                <miembro>Matt Kean</miembro>
-                <miembro>Matt Nicholls</miembro>
-                <miembro>Jordan Fish</miembro>
+                <miembro papel="PRINCIPAL">Oliver Sykes</miembro>
+                <miembro papel="OTRO">Lee Malia</miembro>
+                <miembro papel="OTRO">Matt Kean</miembro>
+                <miembro papel="OTRO">Matt Nicholls</miembro>
+                <miembro papel="OTRO">Jordan Fish</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A06">
@@ -471,12 +585,12 @@
             <anyo_debut>2000</anyo_debut>
             <lugar_origen>Agoura Hills, California, United States</lugar_origen>
             <miembros>
-                <miembro>Mike Shinoda</miembro>
-                <miembro>Brad Delson</miembro>
-                <miembro>Dave &quot;Phoenix&quot; Farrell</miembro>
-                <miembro>Joe Hahn</miembro>
-                <miembro>Emily Armstrong</miembro>
-                <miembro>Colin Brittain</miembro>
+                <miembro papel="PRINCIPAL">Mike Shinoda</miembro>
+                <miembro papel="OTRO">Brad Delson</miembro>
+                <miembro papel="OTRO">Dave &quot;Phoenix&quot; Farrell</miembro>
+                <miembro papel="OTRO">Joe Hahn</miembro>
+                <miembro papel="OTRO">Emily Armstrong</miembro>
+                <miembro papel="OTRO">Colin Brittain</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A07">
@@ -484,11 +598,11 @@
             <anyo_debut>2005</anyo_debut>
             <lugar_origen>Scranton, Pennsylvania, United States</lugar_origen>
             <miembros>
-                <miembro>Chris &quot;Motionless&quot; Cerulli</miembro>
-                <miembro>Ryan Sitkowski</miembro>
-                <miembro>Ricky &quot;Horror&quot; Olson</miembro>
-                <miembro>Justin Morrow</miembro>
-                <miembro>Vinny Mauro</miembro>
+                <miembro papel="PRINCIPAL">Chris &quot;Motionless&quot; Cerulli</miembro>
+                <miembro papel="OTRO">Ryan Sitkowski</miembro>
+                <miembro papel="OTRO">Ricky &quot;Horror&quot; Olson</miembro>
+                <miembro papel="OTRO">Justin Morrow</miembro>
+                <miembro papel="OTRO">Vinny Mauro</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A08">
@@ -496,14 +610,14 @@
             <anyo_debut>1985</anyo_debut>
             <lugar_origen>Los Angeles, California, United States</lugar_origen>
             <miembros>
-                <miembro>Axl Rose</miembro>
-                <miembro>Slash</miembro>
-                <miembro>Duff McKagan</miembro>
-                <miembro>Richard Fortus</miembro>
-                <miembro>Frank Ferrer</miembro>
-                <miembro>Ron &quot;Bumblefoot&quot; Thal</miembro>
-                <miembro>Dizzy Reed</miembro>
-                <miembro>Chris Pitman</miembro>
+                <miembro papel="PRINCIPAL">Axl Rose</miembro>
+                <miembro papel="OTRO">Slash</miembro>
+                <miembro papel="OTRO">Duff McKagan</miembro>
+                <miembro papel="OTRO">Richard Fortus</miembro>
+                <miembro papel="OTRO">Frank Ferrer</miembro>
+                <miembro papel="OTRO">Ron &quot;Bumblefoot&quot; Thal</miembro>
+                <miembro papel="OTRO">Dizzy Reed</miembro>
+                <miembro papel="OTRO">Chris Pitman</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A09">
@@ -511,10 +625,10 @@
             <anyo_debut>1983</anyo_debut>
             <lugar_origen>Los Angeles, California, United States</lugar_origen>
             <miembros>
-                <miembro>Dave Mustaine</miembro>
-                <miembro>David Ellefson</miembro>
-                <miembro>Kiko Loureiro</miembro>
-                <miembro>Dirk Verbeuren</miembro>
+                <miembro papel="PRINCIPAL">Dave Mustaine</miembro>
+                <miembro papel="OTRO">David Ellefson</miembro>
+                <miembro papel="OTRO">Kiko Loureiro</miembro>
+                <miembro papel="OTRO">Dirk Verbeuren</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A10">
@@ -522,14 +636,14 @@
             <anyo_debut>1995</anyo_debut>
             <lugar_origen>Des Moines, Iowa, United States</lugar_origen>
             <miembros>
-                <miembro>Corey Taylor</miembro>
-                <miembro>Jim Root</miembro>
-                <miembro>Mick Thomson</miembro>
-                <miembro>Shawn Crahan</miembro>
-                <miembro>Sid Wilson</miembro>
-                <miembro>Jay Weinberg</miembro>
-                <miembro>Alessandro Venturella</miembro>
-                <miembro>Michael Pfaff</miembro>
+                <miembro papel="PRINCIPAL">Corey Taylor</miembro>
+                <miembro papel="OTRO">Jim Root</miembro>
+                <miembro papel="OTRO">Mick Thomson</miembro>
+                <miembro papel="OTRO">Shawn Crahan</miembro>
+                <miembro papel="OTRO">Sid Wilson</miembro>
+                <miembro papel="OTRO">Jay Weinberg</miembro>
+                <miembro papel="OTRO">Alessandro Venturella</miembro>
+                <miembro papel="OTRO">Michael Pfaff</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A11">
@@ -537,11 +651,11 @@
             <anyo_debut>1965</anyo_debut>
             <lugar_origen>Hannover, Germany</lugar_origen>
             <miembros>
-                <miembro>Rudolf Schenker</miembro>
-                <miembro>Klaus Meine</miembro>
-                <miembro>Matthias Jabs</miembro>
-                <miembro>Pawel Ma&#231;iwoda</miembro>
-                <miembro>Mikkey Dee</miembro>
+                <miembro papel="PRINCIPAL">Rudolf Schenker</miembro>
+                <miembro papel="OTRO">Klaus Meine</miembro>
+                <miembro papel="OTRO">Matthias Jabs</miembro>
+                <miembro papel="OTRO">Pawel Ma&#231;iwoda</miembro>
+                <miembro papel="OTRO">Mikkey Dee</miembro>
             </miembros>
         </artista>
         <artista cod_artista="A12">
@@ -549,24 +663,24 @@
             <anyo_debut>1970</anyo_debut>
             <lugar_origen>London, United Kindom</lugar_origen>
             <miembros>
-                <miembro>Brian May</miembro>
-                <miembro>Roger Taylor</miembro>
-                <miembro>Freddie Mercury</miembro>
-                <miembro>John Deacon</miembro>
+                <miembro papel="PRINCIPAL">Brian May</miembro>
+                <miembro papel="OTRO">Roger Taylor</miembro>
+                <miembro papel="OTRO">Freddie Mercury</miembro>
+                <miembro papel="OTRO">John Deacon</miembro>
             </miembros>
         </artista>
     </artistas_discos>
 
     <generos cod_gen="G01">
         <genero>
-            <nombre>Nu Metal</nombre>
+            <nombre_g conocido="NO">Nu Metal</nombre_g>
             <descripcion>It fuses elements of heavy metal with influences from hip-hop, alternative
                 rock, funk, and other genres like industrial and hardcore punk. Characterized by its
                 aggressive sound, nu metal often features downtuned guitars, syncopated rhythms, and
                 rap-style vocals.</descripcion>
         </genero>
         <genero cod_gen="G02">
-            <nombre>Soul</nombre>
+            <nombre_g conocido="NO">Soul</nombre_g>
             <descripcion>It is characterized by its roots in gospel music and rhythm and blues
                 (R&amp;B), and is known for its intense emotional delivery and vocal embellishments.
                 Soul music combines elements of gospel, R&amp;B, and jazz, and is often
@@ -574,31 +688,32 @@
                 church-rooted elements.</descripcion>
         </genero>
         <genero cod_gen="G03">
-            <nombre>Metalcore</nombre>
+            <nombre_g conocido="SI">Metalcore</nombre_g>
             <descripcion>Metalcore is a musical genre that blends elements of hardcore punk and
                 heavy metal. It emerged in the early 1990s and is characterized by distorted guitar
                 riffs, intense drumming techniques, and vocal styles that range from screaming and
                 shouting to clean singing.</descripcion>
         </genero>
         <genero cod_gen="G04">
-            <nombre>POP</nombre>
+            <nombre_g conocido="SI">POP</nombre_g>
             <descripcion>Pop music is characterized by catchy melodies, simple structures, and broad
                 appeal. It blends various styles like rock, And electronic. Pop songs often feature
                 relatable lyrics and repetitive hooks, making them memorable and accessible.</descripcion>
         </genero>
         <genero cod_gen="G05">
-            <nombre>Heavy Metal</nombre>
+            <nombre_g conocido="SI" >Heavy Metal</nombre_g>
             <descripcion>Heavy metal is known for its loud, aggressive sound and powerful guitar
                 riffs. It often features fast tempos, distorted guitars, and intense drumming.
                 Lyrics can explore dark themes like rebellion, fantasy, and personal struggles. The
                 genre has a strong, dedicated fanbase and has evolved into many subgenres.</descripcion>
         </genero>
         <genero cod_gen="G06">
-            <nombre>Rock</nombre>
-            <descripcion>Rock music is defined by its use of electric guitars, strong rhythms, and 
-            energetic performances. It often blends elements of blues, folk, and country, with lyrics
-             that cover a wide range of themes. Rock can range from soft ballads to high-energy 
-             anthems. The genre has been a major influence on modern music and culture.</descripcion>
+            <nombre_g conocido="SI" >Rock</nombre_g>
+            <descripcion>Rock music is defined by its use of electric guitars, strong rhythms, and
+                energetic performances. It often blends elements of blues, folk, and country, with
+                lyrics that cover a wide range of themes. Rock can range from soft ballads to
+                high-energy anthems. The genre has been a major influence on modern music and
+                culture.</descripcion>
         </genero>
     </generos>
 </tienda_discos>
