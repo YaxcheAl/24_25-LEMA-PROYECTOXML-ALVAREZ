@@ -26,6 +26,7 @@
 <!ATTLIST disco cod_disco ID #REQUIRED>
 <!ATTLIST disco cod_artista IDREF #REQUIRED>
 <!ATTLIST disco cod_gen IDREF #REQUIRED>
+<!ATTLIST disco cod_form (VINILO | CD | BLU-RAY) IDREF >
 <!-- 3 CAMBIO-->
 
 <!ELEMENT nombre_disco (#PCDATA)>
@@ -37,7 +38,7 @@
 
 <!-- CAMBIO 3-->
 <!ELEMENT formato (#PCDATA|nombre|descripcion)*>
-<!ATTLIST formato cod_form (VINILO | CD | BLU-RAY) #IMPLIED>
+<!ATTLIST formato cod_form (VINILO | CD | BLU-RAY) ID #REQUIRED>
 
 <!ELEMENT caratula (#PCDATA)>
 <!ELEMENT link_compra (#PCDATA)>
