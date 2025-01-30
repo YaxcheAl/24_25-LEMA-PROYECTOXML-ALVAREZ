@@ -25,7 +25,7 @@
 <!ELEMENT disco (nombre_disco,autor?,fecha_lanzamiento,duracion,caratula,link_compra,canciones)>
 <!ATTLIST disco cod_disco ID #REQUIRED>
 <!ATTLIST disco cod_artista IDREF #REQUIRED>
-<!ATTLIST disco cod_gen IDREF #IMPLIED>
+<!ATTLIST disco cod_gen IDREF #REQUIRED>
 <!-- 3 CAMBIO-->
 
 <!ELEMENT nombre_disco (#PCDATA)>
