@@ -22,10 +22,12 @@
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT web (#PCDATA)>
 <!ELEMENT discos (disco+)>
-<!ELEMENT disco (nombre_disco,autor?,fecha_lanzamiento,duracion,formato,caratula,link_compra,canciones)>
-<!ATTLIST disco cod_disco CDATA #REQUIRED>
-<!ATTLIST disco cod_artista CDATA #REQUIRED>
-<!ATTLIST disco cod_gen NMTOKEN #REQUIRED>
+<!ELEMENT disco (nombre_disco,autor?,fecha_lanzamiento,duracion,caratula,link_compra,canciones)>
+<!ATTLIST disco cod_disco ID #REQUIRED>
+<!ATTLIST disco cod_artista IDREF #REQUIRED>
+<!ATTLIST disco cod_gen IDREF #IMPLIED>
+<!-- 3 CAMBIO-->
+
 <!ELEMENT nombre_disco (#PCDATA)>
 <!ELEMENT fecha_lanzamiento (#PCDATA)>
 
@@ -35,7 +37,7 @@
 
 <!-- CAMBIO 3-->
 <!ELEMENT formato (#PCDATA|nombre|descripcion)*>
-<!ATTLIST formato cod_form (VIN | CD | BLU) #IMPLIED>
+<!ATTLIST formato cod_form (VINILO | CD | BLU-RAY) #IMPLIED>
 
 <!ELEMENT caratula (#PCDATA)>
 <!ELEMENT link_compra (#PCDATA)>
@@ -57,10 +59,11 @@
 <!-- CAMBIO 4-->
 <!ATTLIST miembro papel  (PRINCIPAL | OTRO) #REQUIRED>
 <!ELEMENT generos (genero+)>
-<!ATTLIST generos cod_gen CDATA #IMPLIED>
-<!ELEMENT genero (nombre_g, descripcion)>
-<!ELEMENT nombre_g (#PCDATA)>
+
 
 <!-- 5 CAMBIO -->
 <!ATTLIST nombre_g conocido ( SI | NO) "SI" >
-<!ATTLIST genero cod_gen CDATA #IMPLIED>
+
+<!ELEMENT genero (nombre_g, descripcion)>
+<!ATTLIST genero cod_gen ID #REQUIRED>
+<!ELEMENT nombre_g (#PCDATA)>
