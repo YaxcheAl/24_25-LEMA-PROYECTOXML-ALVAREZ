@@ -1,0 +1,66 @@
+<!ELEMENT tienda_discos (informacion_tienda,discos,formatos,artistas_discos,generos)>
+<!ELEMENT informacion_tienda (nombre_tienda,direccion,horarios,contacto)>
+<!ELEMENT nombre_tienda (#PCDATA)>
+<!ELEMENT direccion (calle,ciudad,pais,codigo_postal)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT horarios (lunes,martes,miercoles,jueves,viernes,sabado,domingo)>
+<!ELEMENT lunes (#PCDATA)>
+<!ELEMENT martes (#PCDATA)>
+<!ELEMENT miercoles (#PCDATA)>
+<!ELEMENT jueves (#PCDATA)>
+<!ELEMENT viernes (#PCDATA)>
+<!ELEMENT sabado (#PCDATA)>
+<!ELEMENT domingo (#PCDATA)>
+<!ELEMENT contacto (telefono,email,web)>
+<!ELEMENT telefono (#PCDATA)>
+
+<!-- 2 CAMBIO-->
+<!ATTLIST telefono direccion (movil|fijo) #REQUIRED>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT web (#PCDATA)>
+<!ELEMENT discos (disco+)>
+<!ELEMENT disco (nombre_disco,autor?,fecha_lanzamiento,duracion,formato,caratula,link_compra,canciones)>
+<!ATTLIST disco cod_disco CDATA #REQUIRED>
+<!ATTLIST disco cod_artista CDATA #REQUIRED>
+<!ATTLIST disco cod_gen NMTOKEN #REQUIRED>
+<!ELEMENT nombre_disco (#PCDATA)>
+<!ELEMENT fecha_lanzamiento (#PCDATA)>
+
+<!-- CAMBIO 1 -->
+<!ELEMENT duracion (#PCDATA)>
+<!ATTLIST duracion medida CDATA #FIXED "minuto">
+
+<!-- CAMBIO 3-->
+<!ELEMENT formato (#PCDATA|nombre|descripcion)*>
+<!ATTLIST formato cod_form (VIN | CD | BLU) #IMPLIED>
+
+<!ELEMENT caratula (#PCDATA)>
+<!ELEMENT link_compra (#PCDATA)>
+<!ELEMENT canciones (cancion+)>
+<!ELEMENT cancion (titulo,duracion)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT formatos (formato+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT artistas_discos (artista+)>
+<!ELEMENT artista (name,anyo_debut,lugar_origen,miembros)>
+<!ATTLIST artista cod_artista ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT anyo_debut (#PCDATA)>
+<!ELEMENT lugar_origen (#PCDATA)>
+<!ELEMENT miembros (miembro+)>
+<!ELEMENT miembro (#PCDATA)>
+
+<!-- CAMBIO 4-->
+<!ATTLIST miembro papel  (PRINCIPAL | OTRO) #REQUIRED>
+<!ELEMENT generos (genero+)>
+<!ATTLIST generos cod_gen CDATA #IMPLIED>
+<!ELEMENT genero (nombre_g, descripcion)>
+<!ELEMENT nombre_g (#PCDATA)>
+
+<!-- 5 CAMBIO -->
+<!ATTLIST nombre_g conocido ( SI | NO) "SI" >
+<!ATTLIST genero cod_gen CDATA #IMPLIED>
