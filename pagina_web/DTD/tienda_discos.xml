@@ -94,7 +94,7 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C02" cod_artista="A04" cod_gen="G03" cod_form="VIN">
+        <disco cod_disco="C02" cod_artista="A04" cod_gen="G03" cod_for="VINILO">
             <nombre_disco>Venom</nombre_disco>
             <fecha_lanzamiento>2008-08-14</fecha_lanzamiento>
             <duracion medida="minuto">57:44</duracion>
@@ -147,11 +147,10 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C03" cod_artista="A02" cod_gen="G02">
+        <disco cod_disco="C03" cod_artista="A02" cod_gen="G02" cod_for="CD">
             <nombre_disco>Music of My Mind</nombre_disco>
             <fecha_lanzamiento>1972-03-03</fecha_lanzamiento>
             <duracion medida="minuto">39:14</duracion>
-            <formato>CD</formato>
             <caratula>Music_of_My_Mind.jpg</caratula>
             <link_compra>https://www.amazon.com/dp/B000002P0U</link_compra>
             <canciones>
@@ -326,11 +325,10 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C06" cod_artista="A08" cod_gen="G06">
+        <disco cod_disco="C06" cod_artista="A08" cod_gen="G06" cod_for="VINILO">
             <nombre_disco>Appetite for Destruction</nombre_disco>
             <fecha_lanzamiento>1987-07-21</fecha_lanzamiento>
             <duracion medida="minuto">23:55</duracion>
-            <formato>VIN</formato>
             <caratula>appetitefordestruction-gunsnroses.jpg</caratula>
             <link_compra>www.fnac.es/a1750688/Guns-N-Roses-Appetite-for-Destruction-Disco</link_compra>
             <canciones>
@@ -356,11 +354,10 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C07" cod_artista="A05" cod_gen="G03">
+        <disco cod_disco="C07" cod_artista="A05" cod_gen="G03" cod_for="CD">
             <nombre_disco>Sempiternal</nombre_disco>
             <fecha_lanzamiento>2013-03-1</fecha_lanzamiento>
             <duracion medida="minuto">45:31</duracion>
-            <formato>CD</formato>
             <caratula>sempiternal-bringmethehorizon.jpg</caratula>
             <link_compra>www.amazon.es/Sempiternal-Bring-Me-Horizon/dp/B00C57DFY4</link_compra>
             <canciones>
@@ -410,11 +407,10 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C08" cod_artista="A03" cod_gen="G03">
+        <disco cod_disco="C08" cod_artista="A03" cod_gen="G03" cod_for="BLU-RAY">
             <nombre_disco>Waking the Fallen</nombre_disco>
             <fecha_lanzamiento>2003-08-26</fecha_lanzamiento>
             <duracion medida="minuto">68:36</duracion>
-            <formato>BLU</formato>
             <caratula>wakingthefallen-avengedsevenfold.jpg</caratula>
             <link_compra>www.iberlibro.com/9781774440148/Dead-Man-Walking-Fallen-Men-1774440148/plp</link_compra>
             <canciones>
@@ -468,11 +464,10 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C09" cod_artista="A03" cod_gen="G03">
+        <disco cod_disco="C09" cod_artista="A03" cod_gen="G03" cod_for="CD">
             <nombre_disco>City Of Evil</nombre_disco>
-            <fecha_lanzamiento>2005</fecha_lanzamiento>
+            <fecha_lanzamiento>2005-02-12</fecha_lanzamiento>
             <duracion medida="minuto">72:50</duracion>
-            <formato>cd</formato>
             <caratula>cityofevil-avengedsevenfold.jpg</caratula>
             <link_compra>https://www.amazon.es/City-Evil-Avenged-Sevenfold/dp/B000EBCEBI</link_compra>
             <canciones>
@@ -522,11 +517,10 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C10" cod_artista="A03" cod_gen="G05">
+        <disco cod_disco="C10" cod_artista="A03" cod_gen="G05" cod_for="CD">
             <nombre_disco>Diamonds In The Rough</nombre_disco>
-            <fecha_lanzamiento>2008</fecha_lanzamiento>
+            <fecha_lanzamiento>2008-12-12</fecha_lanzamiento>
             <duracion medida="minuto"></duracion>
-            <formato>CD</formato>
             <caratula>diamondsintherough-avengedsevenfold.jpg</caratula>
             <link_compra>https://www.amazon.es/Avenged-Sevenfold-Diamonds-Rough-LP-Vinilo/dp/B083X6NKXT</link_compra>
             <canciones>
@@ -596,11 +590,10 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C11" cod_artista="A11" cod_gen="G06">
+        <disco cod_disco="C11" cod_artista="A11" cod_gen="G06" cod_for="VINILO">
             <nombre_disco>Love At First Sting</nombre_disco>
-            <fecha_lanzamiento>1984</fecha_lanzamiento>
-            <duracion medida="minuto">41</duracion>
-            <formato>Vinilo</formato>
+            <fecha_lanzamiento>1984-06-28</fecha_lanzamiento>
+            <duracion medida="minuto">41:43</duracion>
             <caratula>loveatfirststing-scorpions.jpg</caratula>
             <link_compra>https://www.amazon.es/Love-At-First-Sting-Vinilo/dp/B016ZXZ7OO</link_compra>
             <canciones>
@@ -642,11 +635,10 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C12" cod_artista="A06" cod_gen="G01">
+        <disco cod_disco="C12" cod_artista="A06" cod_gen="G01" cod_for="BLU-RAY">
             <nombre_disco>Meteora</nombre_disco>
-            <fecha_lanzamiento>2003</fecha_lanzamiento>
-            <duracion medida="minuto">36</duracion>
-            <formato>Blu-ray</formato>
+            <fecha_lanzamiento>2003-05-15</fecha_lanzamiento>
+            <duracion medida="minuto">36:03</duracion>
             <caratula>meteora-linkinpark.jpg</caratula>
             <link_compra>https://www.amazon.es/Meteora-Jewelcase-Linkin-Park/dp/B00008S7JP</link_compra>
             <canciones>
@@ -704,12 +696,11 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C13" cod_artista="A03" cod_gen="G03">
+        <disco cod_disco="C13" cod_artista="A03" cod_gen="G03" cod_for="VINILO">
             <nombre_disco>Nightmare</nombre_disco>
-            <fecha_lanzamiento>2010</fecha_lanzamiento>
+            <fecha_lanzamiento>2010-10-10</fecha_lanzamiento>
             <duracion medida="minuto">66:50</duracion>
-            <formato>Vinilo</formato>
-            <caratula>nightmare-avengedsevenfold.jpg</caratula>
+            <caratula>nightmare-avengedsevenfold.jpg</caratula> 
             <link_compra>https://www.amazon.es/Nightmare-Avenged-Sevenfold/dp/B003XKDFCO</link_compra>
             <canciones>
                 <cancion>
@@ -758,11 +749,10 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C14" cod_artista="A09" cod_gen="G07">
+        <disco cod_disco="C14" cod_artista="A09" cod_gen="G07" cod_for="CD">
             <nombre_disco>Rust in Peace</nombre_disco>
-            <fecha_lanzamiento>1990</fecha_lanzamiento>
+            <fecha_lanzamiento>1990-11-20</fecha_lanzamiento>
             <duracion medida="minuto">45:10</duracion>
-            <formato>CD</formato>
             <caratula>rustinpeace-megadeth.jpg</caratula>
             <link_compra>https://www.amazon.com/Rust-Peace-Megadeth/dp/B000002UUX</link_compra>
             <canciones>
@@ -804,11 +794,10 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C15" cod_artista="A07" cod_gen="G03">
+        <disco cod_disco="C15" cod_artista="A07" cod_gen="G03" cod_for="BLUE-RAY">
             <nombre_disco>Scoring The End Of The World</nombre_disco>
-            <fecha_lanzamiento>2022</fecha_lanzamiento>
+            <fecha_lanzamiento>2022-02-19</fecha_lanzamiento>
             <duracion medida="minuto">49:51</duracion>
-            <formato>Blu-ray</formato>
             <caratula>scoringtheendoftheworld-motionlessinwhite.jpg</caratula>
             <link_compra>https://www.amazon.es/Motionless-White-Scoring-End-World/dp/B09VLK12F5</link_compra>
             <canciones>
@@ -866,11 +855,10 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C16" cod_artista="A05" cod_gen="G03">
+        <disco cod_disco="C16" cod_artista="A05" cod_gen="G03" cod_for="CD">
             <nombre_disco>That&#39;s The Spirit</nombre_disco>
-            <fecha_lanzamiento>2015</fecha_lanzamiento>
+            <fecha_lanzamiento>2015-07-12</fecha_lanzamiento>
             <duracion medida="minuto">45:00</duracion>
-            <formato>CD</formato>
             <caratula>thatsthespirit-bringmethehorizon.jpg</caratula>
             <link_compra>https://www.amazon.es/Thats-Spirit-Bring-Me-Horizon/dp/B012BCJ27G</link_compra>
             <canciones>
@@ -920,11 +908,10 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C17" cod_artista="A04" cod_gen="G03">
+        <disco cod_disco="C17" cod_artista="A04" cod_gen="G03" cod_for="VINILO">
             <nombre_disco>The Poison</nombre_disco>
-            <fecha_lanzamiento>1999</fecha_lanzamiento>
+            <fecha_lanzamiento>1999-06-06</fecha_lanzamiento>
             <duracion medida="minuto">48:45</duracion>
-            <formato>Vinilo</formato>
             <caratula>thepoison-bulletformyvalentine.jpg</caratula>
             <link_compra>https://www.amazon.es/Poison-Bullet-My-Valentine/dp/B000B5253E</link_compra>
             <canciones>
@@ -984,18 +971,18 @@
         </disco>
     </discos>
     <formatos>
-        <formato cod_form="CD">
+        <formato cod_for="CD">
             <nombre>CD</nombre>
             <descripcion>Compact Disc, a digital optical disc used to store audio
             recordings with high quality and a capacity of up to 74–80 minutes of uncompressed
             audio.</descripcion>
         </formato>
-        <formato cod_form="VIN">
+        <formato cod_for="VINILO">
             <nombre>Vinilo</nombre>
             <descripcion>Vinyl record, an analog sound storage medium in the
             form of a flat disc, valued for its warm sound quality and used by audiophiles.</descripcion>
         </formato>
-        <formato cod_form="BLU">
+        <formato cod_for="BLU-RAY">
             <nombre>Blu-ray</nombre>
             <descripcion>Blu-ray Disc, a digital optical disc format capable
             of storing high-definition audio and video, with support for lossless audio formats.</descripcion>
@@ -1144,8 +1131,8 @@
         </artista>
     </artistas_discos>
 
-    <generos cod_gen="G01">
-        <genero>
+    <generos>
+        <genero  cod_gen="G01">
             <nombre_g conocido="NO">Nu Metal</nombre_g>
             <descripcion>It fuses elements of heavy metal with influences from hip-hop, alternative
                 rock, funk, and other genres like industrial and hardcore punk. Characterized by its
