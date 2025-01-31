@@ -25,13 +25,12 @@
         </contacto>
     </informacion_tienda>
     <discos>
-        <disco cod_disco="C01" cod_artista="A10" cod_gen="G01">
+        <disco cod_disco="C01" cod_artista="A10" cod_gen="G01" cod_for="CD">
             <nombre_disco>All Hope Is Gone</nombre_disco>
             <fecha_lanzamiento>2008-08-26</fecha_lanzamiento> 
             <duracion medida="minuto">57:44</duracion>
-            <formato>CD</formato>
             <caratula>allhopeisgone-slipknot.jpg</caratula>
-            <link_compra>www.fnac.es/a218771/Slipknot-All-Hope-Is-Gone</link_compra>
+            <link_compra>https://www.fnac.es/a218771/Slipknot-All-Hope-Is-Gone</link_compra>
             <canciones>
                 <cancion>
                     <titulo>.execute.</titulo>
@@ -95,22 +94,12 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C02" cod_artista="A04" cod_gen="G03">
+        <disco cod_disco="C02" cod_artista="A04" cod_gen="G03" cod_form="VIN">
             <nombre_disco>Venom</nombre_disco>
             <fecha_lanzamiento>2008-08-14</fecha_lanzamiento>
             <duracion medida="minuto">57:44</duracion>
-
-            <!-- pregunta el formato tambien hay que ponerlo con el codigo VIN tipo el cod_gen de
-            los generos
-            o como lo he puesto esta bien? el formato esta bien así-->
-
-            <formato>VIN</formato>
-            <!-- OTRA PREGUNTA, PARA PONER LA IMAGEN NO HABRA QUE PONER LA RUTA RELATIVA NO? O TAL
-            COMO 
-            LE HE PUESTO ESTA BIEN? así está bien-->
-
             <caratula>venom-bulletformyvalentine.jpg</caratula>
-            <link_compra>www.emp-online.es/p/The-poison/574199St.html/?gQT=2</link_compra>
+            <link_compra>https://www.emp-online.es/p/The-poison/574199St.html/?gQT=2</link_compra>
             <canciones>
                 <cancion>
                     <titulo>V</titulo>
@@ -164,7 +153,7 @@
             <duracion medida="minuto">39:14</duracion>
             <formato>CD</formato>
             <caratula>Music_of_My_Mind.jpg</caratula>
-            <link_compra>www.amazon.com/dp/B000002P0U</link_compra>
+            <link_compra>https://www.amazon.com/dp/B000002P0U</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Love Having You Around</titulo>
@@ -212,13 +201,12 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C04" cod_artista="A01" cod_gen="G02">
+        <disco cod_disco="C04" cod_artista="A01" cod_gen="G02" cod_for="CD">
             <nombre_disco>The Definitive Collection</nombre_disco>
             <fecha_lanzamiento>2008-11-04</fecha_lanzamiento>
             <duracion medida="minuto">78:42</duracion>
-            <formato>CD</formato>
             <caratula>The_Definitive_Collection.jpg</caratula>
-            <link_compra>www.amazon.com/dp/B001A6H0Q6</link_compra>
+            <link_compra>https://www.amazon.com/dp/B001A6H0Q6</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Fallin&#39;</titulo>
@@ -281,33 +269,12 @@
                 </cancion>
             </canciones>
         </disco>
-
-        <!-- PLANTILLA PARA CREAR NUEVOS DISCOS-->
-
-        <disco cod_disco="C0" cod_artista="A0" cod_gen="G0">
-            <nombre_disco></nombre_disco>
-            <fecha_lanzamiento></fecha_lanzamiento>
-            <duracion medida="minuto"> </duracion>
-            <formato></formato>
-            <caratula></caratula>
-            <link_compra></link_compra>
-            <canciones>
-                <cancion>
-                    <titulo></titulo>
-                    <duracion medida="minuto"></duracion>
-                </cancion>
-            </canciones>
-        </disco>
-
-        <!-- hasta aqui la plantilla-->
-
-        <disco cod_disco="C05" cod_artista="A12" cod_gen="G06">
+        <disco cod_disco="C05" cod_artista="A12" cod_gen="G06" cod_for="CD">
             <nombre_disco>Bohemian Rhapsody: The Original Soundtrack</nombre_disco>
             <fecha_lanzamiento>2018-11-19</fecha_lanzamiento>
             <duracion medida="minuto">66:22</duracion>
-            <formato>CD</formato>
             <caratula>bohemianrhapsody-queen.jpg</caratula>
-            <link_compra>www.discogs.com/es/release/15417745-Queen-Bohemian-Rhapsody-The-Original-Soundtrack</link_compra>
+            <link_compra>https://www.discogs.com/es/release/15417745-Queen-Bohemian-Rhapsody-The-Original-Soundtrack</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Somebody to love</titulo>
