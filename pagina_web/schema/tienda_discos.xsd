@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="tienda_discos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="informacion_tienda">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre_tienda" type="xs:string" />
+                            <xs:element name="direccion">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="calle" type="xs:string" />
+                                        <xs:element name="ciudad" type="xs:string" />
+                                        <xs:element name="pais" type="xs:string" />
+                                        <xs:element name="codigo_postal" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="horarios">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="lunes" type="xs:string" />
+                                        <xs:element name="martes" type="xs:string" />
+                                        <xs:element name="miercoles" type="xs:string" />
+                                        <xs:element name="jueves" type="xs:string" />
+                                        <xs:element name="viernes" type="xs:string" />
+                                        <xs:element name="sabado" type="xs:string" />
+                                        <xs:element name="domingo" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="contacto">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="telefono">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="direccion"
+                                                            use="required" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="email" type="xs:string" />
+                                        <xs:element name="web" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="discos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="disco" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre_disco" type="xs:string" />
+                                        <xs:element name="fecha_lanzamiento" type="xs:string" />
+                                        <xs:element name="duracion">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="medida" use="required"
+                                                            fixed="minuto" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="caratula" type="xs:string" />
+                                        <xs:element name="link_compra" type="xs:string" />
+                                        <xs:element name="canciones">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="cancion" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="titulo"
+                                                                    type="xs:string" />
+                                                                <xs:element name="duracion">
+                                                                    <xs:complexType>
+                                                                        <xs:simpleContent>
+                                                                            <xs:extension
+                                                                                base="xs:string">
+                                                                                <xs:attribute
+                                                                                    name="medida"
+                                                                                    use="required"
+                                                                                    fixed="minuto" />
+                                                                            </xs:extension>
+                                                                        </xs:simpleContent>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="cod_disco" type="xs:ID" use="required" />
+                                    <xs:attribute name="cod_artista" use="required" />
+                                    <xs:attribute name="cod_gen" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="formatos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="formato" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string" />
+                                        <xs:element name="descripcion" type="xs:string" />
+                                    </xs:sequence>
+                                    <xs:attribute name="cod_form" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="artistas_discos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="artista" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string" />
+                                        <xs:element name="anyo_debut" type="xs:string" />
+                                        <xs:element name="lugar_origen" type="xs:string" />
+                                        <xs:element name="miembros">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="miembro" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="papel"
+                                                                        use="required">
+                                                                        <xs:simpleType>
+                                                                            <xs:restriction
+                                                                                base="xs:string">
+                                                                                <xs:enumeration
+                                                                                    value="OTRO" />
+                                                                                <xs:enumeration
+                                                                                    value="PRINCIPAL" />
+                                                                            </xs:restriction>
+                                                                        </xs:simpleType>
+                                                                    </xs:attribute>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="cod_artista" type="xs:ID" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="generos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="genero" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre_g">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="conocido" use="required" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="descripcion" type="xs:string" />
+                                    </xs:sequence>
+                                    <xs:attribute name="cod_gen" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
