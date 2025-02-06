@@ -27,6 +27,7 @@
 <!ATTLIST disco cod_artista IDREF #REQUIRED>
 <!ATTLIST disco cod_gen CDATA #IMPLIED>
 <!ATTLIST disco cod_form  CDATA #IMPLIED>
+<!ATTLIST disco especial  CDATA #IMPLIED "SI">
 <!-- 3 CAMBIO-->
 
 <!ELEMENT nombre_disco (#PCDATA)>

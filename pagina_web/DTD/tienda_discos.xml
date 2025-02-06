@@ -25,7 +25,7 @@
         </contacto>
     </informacion_tienda>
     <discos>
-        <disco cod_disco="C01" cod_artista="A10" cod_gen="G01" cod_form="CD">
+        <disco cod_disco="C01" cod_artista="A10" cod_gen="G01" cod_form="CD" especial="SI">
             <nombre_disco>All Hope Is Gone</nombre_disco>
             <fecha_lanzamiento>2008-08-26</fecha_lanzamiento> 
             <duracion medida="minuto">57:44</duracion>
@@ -147,7 +147,7 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C03" cod_artista="A02" cod_gen="G02" cod_form="BLU-RAY">
+        <disco cod_disco="C03" cod_artista="A02" cod_gen="G02" cod_form="BLU-RAY" especial="SI">
             <nombre_disco>Music of My Mind</nombre_disco>
             <fecha_lanzamiento>1972-03-03</fecha_lanzamiento>
             <duracion medida="minuto">39:14</duracion>
@@ -268,7 +268,7 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C05" cod_artista="A12" cod_gen="G06" cod_form="VINILO">
+        <disco cod_disco="C05" cod_artista="A12" cod_gen="G06" cod_form="VINILO" especial="SI">
             <nombre_disco>Bohemian Rhapsody: The Original Soundtrack</nombre_disco>
             <fecha_lanzamiento>2018-11-19</fecha_lanzamiento>
             <duracion medida="minuto">66:22</duracion>
@@ -354,7 +354,7 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C07" cod_artista="A05" cod_gen="G03" cod_form="CD">
+        <disco cod_disco="C07" cod_artista="A05" cod_gen="G03" cod_form="CD" especial="SI">
             <nombre_disco>Sempiternal</nombre_disco>
             <fecha_lanzamiento>2013-03-1</fecha_lanzamiento>
             <duracion medida="minuto">45:31</duracion>
@@ -464,7 +464,7 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C09" cod_artista="A03" cod_gen="G03" cod_form="CD">
+        <disco cod_disco="C09" cod_artista="A03" cod_gen="G03" cod_form="CD" especial="SI">
             <nombre_disco>City Of Evil</nombre_disco>
             <fecha_lanzamiento>2005-04-17</fecha_lanzamiento>
             <duracion medida="minuto">72:50</duracion>
@@ -590,7 +590,7 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C11" cod_artista="A11" cod_gen="G06" cod_form="VINILO">
+        <disco cod_disco="C11" cod_artista="A11" cod_gen="G06" cod_form="VINILO" especial="SI">
             <nombre_disco>Love At First Sting</nombre_disco>
             <fecha_lanzamiento>1984-01-20</fecha_lanzamiento>
             <duracion medida="minuto">41</duracion>
