@@ -6,7 +6,7 @@
         <direccion>
             <calle>Avenida de la Música, 123</calle>
             <ciudad>Vitoria</ciudad>
-            <pais>España</pais>
+            <pais>Spain</pais>
             <codigo_postal>28001</codigo_postal>
         </direccion>
         <horarios>
