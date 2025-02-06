@@ -25,7 +25,7 @@
         </contacto>
     </informacion_tienda>
     <discos>
-        <disco cod_disco="C01" cod_artista="A10" cod_gen="G01">
+        <disco cod_disco="C01" cod_artista="A10" cod_gen="G01" cod_form="CD">
             <nombre_disco>All Hope Is Gone</nombre_disco>
             <fecha_lanzamiento>2008-08-26</fecha_lanzamiento> 
             <duracion medida="minuto">57:44</duracion>
