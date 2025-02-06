@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tienda_discos>
+<tienda_discos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="tienda_discos.xsd">
     <informacion_tienda>
         <nombre_tienda>NOMBRE A ELEGIR</nombre_tienda>
         <direccion>
