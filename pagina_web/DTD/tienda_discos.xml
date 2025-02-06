@@ -200,7 +200,7 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C04" cod_artista="A01" cod_gen="G02">
+        <disco cod_disco="C04" cod_artista="A01" cod_gen="G02" cod_form="CD">
             <nombre_disco>The Definitive Collection</nombre_disco>
             <fecha_lanzamiento>2008-11-04</fecha_lanzamiento>
             <duracion medida="minuto">78:42</duracion>
@@ -325,7 +325,7 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C06" cod_artista="A08" cod_gen="G06">
+        <disco cod_disco="C06" cod_artista="A08" cod_gen="G06" cod_form="BLU-RAY">
             <nombre_disco>Appetite for Destruction</nombre_disco>
             <fecha_lanzamiento>1987-07-21</fecha_lanzamiento>
             <duracion medida="minuto">23:55</duracion>
@@ -354,7 +354,7 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C07" cod_artista="A05" cod_gen="G03">
+        <disco cod_disco="C07" cod_artista="A05" cod_gen="G03" cod_form="CD">
             <nombre_disco>Sempiternal</nombre_disco>
             <fecha_lanzamiento>2013-03-1</fecha_lanzamiento>
             <duracion medida="minuto">45:31</duracion>
@@ -407,7 +407,7 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C08" cod_artista="A03" cod_gen="G03">
+        <disco cod_disco="C08" cod_artista="A03" cod_gen="G03" cod_form="VINILO">
             <nombre_disco>Waking the Fallen</nombre_disco>
             <fecha_lanzamiento>2003-08-26</fecha_lanzamiento>
             <duracion medida="minuto">68:36</duracion>
@@ -464,9 +464,9 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C09" cod_artista="A03" cod_gen="G03">
+        <disco cod_disco="C09" cod_artista="A03" cod_gen="G03" cod_form="CD">
             <nombre_disco>City Of Evil</nombre_disco>
-            <fecha_lanzamiento>2005</fecha_lanzamiento>
+            <fecha_lanzamiento>2005-04-17</fecha_lanzamiento>
             <duracion medida="minuto">72:50</duracion>
             <caratula>cityofevil-avengedsevenfold.jpg</caratula>
             <link_compra>https://www.amazon.es/City-Evil-Avenged-Sevenfold/dp/B000EBCEBI</link_compra>
@@ -517,9 +517,9 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C10" cod_artista="A03" cod_gen="G05">
+        <disco cod_disco="C10" cod_artista="A03" cod_gen="G05" cod_form="VINILO">
             <nombre_disco>Diamonds In The Rough</nombre_disco>
-            <fecha_lanzamiento>2008</fecha_lanzamiento>
+            <fecha_lanzamiento>2008-03-03</fecha_lanzamiento>
             <duracion medida="minuto"></duracion>
             <caratula>diamondsintherough-avengedsevenfold.jpg</caratula>
             <link_compra>https://www.amazon.es/Avenged-Sevenfold-Diamonds-Rough-LP-Vinilo/dp/B083X6NKXT</link_compra>
@@ -590,9 +590,9 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C11" cod_artista="A11" cod_gen="G06">
+        <disco cod_disco="C11" cod_artista="A11" cod_gen="G06" cod_form="VINILO">
             <nombre_disco>Love At First Sting</nombre_disco>
-            <fecha_lanzamiento>1984</fecha_lanzamiento>
+            <fecha_lanzamiento>1984-01-20</fecha_lanzamiento>
             <duracion medida="minuto">41</duracion>
             <caratula>loveatfirststing-scorpions.jpg</caratula>
             <link_compra>https://www.amazon.es/Love-At-First-Sting-Vinilo/dp/B016ZXZ7OO</link_compra>
@@ -635,10 +635,10 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C12" cod_artista="A06" cod_gen="G01">
+        <disco cod_disco="C12" cod_artista="A06" cod_gen="G01" cod_form="CD">
             <nombre_disco>Meteora</nombre_disco>
-            <fecha_lanzamiento>2003</fecha_lanzamiento>
-            <duracion medida="minuto">36</duracion>
+            <fecha_lanzamiento>2003-05-12</fecha_lanzamiento>
+            <duracion medida="minuto">36:03</duracion>
             <caratula>meteora-linkinpark.jpg</caratula>
             <link_compra>https://www.amazon.es/Meteora-Jewelcase-Linkin-Park/dp/B00008S7JP</link_compra>
             <canciones>
@@ -696,7 +696,7 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C13" cod_artista="A03" cod_gen="G03">
+        <disco cod_disco="C13" cod_artista="A03" cod_gen="G03" cod_form="VINILO">
             <nombre_disco>Nightmare</nombre_disco>
             <fecha_lanzamiento>2010</fecha_lanzamiento>
             <duracion medida="minuto">66:50</duracion>
@@ -749,9 +749,9 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C14" cod_artista="A09" cod_gen="G07">
+        <disco cod_disco="C14" cod_artista="A09" cod_gen="G07" cod_form="BLU-RAY">
             <nombre_disco>Rust in Peace</nombre_disco>
-            <fecha_lanzamiento>1990</fecha_lanzamiento>
+            <fecha_lanzamiento>1990-05-06</fecha_lanzamiento>
             <duracion medida="minuto">45:10</duracion>
             <caratula>rustinpeace-megadeth.jpg</caratula>
             <link_compra>https://www.amazon.com/Rust-Peace-Megadeth/dp/B000002UUX</link_compra>
@@ -794,9 +794,9 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C15" cod_artista="A07" cod_gen="G03">
+        <disco cod_disco="C15" cod_artista="A07" cod_gen="G03" cod_form="CD">
             <nombre_disco>Scoring The End Of The World</nombre_disco>
-            <fecha_lanzamiento>2022</fecha_lanzamiento>
+            <fecha_lanzamiento>2022-12-12</fecha_lanzamiento>
             <duracion medida="minuto">49:51</duracion>
             <caratula>scoringtheendoftheworld-motionlessinwhite.jpg</caratula>
             <link_compra>https://www.amazon.es/Motionless-White-Scoring-End-World/dp/B09VLK12F5</link_compra>
@@ -855,9 +855,9 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C16" cod_artista="A05" cod_gen="G03">
+        <disco cod_disco="C16" cod_artista="A05" cod_gen="G03" cod_form="CD">
             <nombre_disco>That&#39;s The Spirit</nombre_disco>
-            <fecha_lanzamiento>2015</fecha_lanzamiento>
+            <fecha_lanzamiento>2015-05-09</fecha_lanzamiento>
             <duracion medida="minuto">45:00</duracion>
             <caratula>thatsthespirit-bringmethehorizon.jpg</caratula>
             <link_compra>https://www.amazon.es/Thats-Spirit-Bring-Me-Horizon/dp/B012BCJ27G</link_compra>
@@ -908,9 +908,9 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C17" cod_artista="A04" cod_gen="G03">
+        <disco cod_disco="C17" cod_artista="A04" cod_gen="G03" cod_form="BLU-RAY">
             <nombre_disco>The Poison</nombre_disco>
-            <fecha_lanzamiento>1999</fecha_lanzamiento>
+            <fecha_lanzamiento>1999-11-11</fecha_lanzamiento>
             <duracion medida="minuto">48:45</duracion>
             <caratula>thepoison-bulletformyvalentine.jpg</caratula>
             <link_compra>https://www.amazon.es/Poison-Bullet-My-Valentine/dp/B000B5253E</link_compra>
