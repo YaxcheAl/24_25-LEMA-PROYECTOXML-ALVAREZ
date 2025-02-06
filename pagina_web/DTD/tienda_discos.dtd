@@ -25,7 +25,7 @@
 <!ELEMENT disco (nombre_disco,autor?,fecha_lanzamiento,duracion,caratula,link_compra,canciones)>
 <!ATTLIST disco cod_disco ID #REQUIRED>
 <!ATTLIST disco cod_artista IDREF #REQUIRED>
-<!ATTLIST disco cod_gen IDREF #REQUIED>
+<!ATTLIST disco cod_gen CDATA #IMPLIED>
 <!ATTLIST disco cod_form  CDATA #IMPLIED>
 <!-- 3 CAMBIO-->
 

@@ -94,24 +94,15 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C02" cod_artista="A04" cod_gen="G03">
+        <disco cod_disco="C02" cod_artista="A04" cod_gen="G03" cod_form="VINILO">
             <nombre_disco>Venom</nombre_disco>
             <fecha_lanzamiento>2008-08-14</fecha_lanzamiento>
             <duracion medida="minuto">57:44</duracion>
-
-            <!-- pregunta el formato tambien hay que ponerlo con el codigo VIN tipo el cod_gen de
-            los generos
-            o como lo he puesto esta bien? el formato esta bien así-->
-
-            <!-- OTRA PREGUNTA, PARA PONER LA IMAGEN NO HABRA QUE PONER LA RUTA RELATIVA NO? O TAL
-            COMO 
-            LE HE PUESTO ESTA BIEN? así está bien-->
-
             <caratula>venom-bulletformyvalentine.jpg</caratula>
             <link_compra>www.emp-online.es/p/The-poison/574199St.html/?gQT=2</link_compra>
             <canciones>
                 <cancion>
-                    <titulo>V</titulo>
+                    <titulo>Venom</titulo>
                     <duracion medida="minuto">1:26</duracion>
                 </cancion>
                 <cancion>
@@ -156,7 +147,7 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C03" cod_artista="A02" cod_gen="G02">
+        <disco cod_disco="C03" cod_artista="A02" cod_gen="G02" cod_form="BLU-RAY">
             <nombre_disco>Music of My Mind</nombre_disco>
             <fecha_lanzamiento>1972-03-03</fecha_lanzamiento>
             <duracion medida="minuto">39:14</duracion>
