@@ -356,7 +356,7 @@
         </disco>
         <disco cod_disco="C07" cod_artista="A05" cod_gen="G03" cod_form="CD" especial="SI">
             <nombre_disco>Sempiternal</nombre_disco>
-            <fecha_lanzamiento>2013-03-1</fecha_lanzamiento>
+            <fecha_lanzamiento>2013-03-01</fecha_lanzamiento>
             <duracion medida="minuto">45:31</duracion>
             <caratula>sempiternal-bringmethehorizon.jpg</caratula>
             <link_compra>https://www.amazon.es/Sempiternal-Bring-Me-Horizon/dp/B00C57DFY4</link_compra>
