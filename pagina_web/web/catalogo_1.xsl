@@ -15,8 +15,8 @@
                         <a href="../index.html" class="logo">Nombre de la web</a>
                         <nav id="nav">
                             <a href="../index.html">Página Principal</a>
-                            <a href="catalogo_1.html">Catálogo 1</a>
-                            <a href="#">Catálogo 2</a>
+                            <a href="tienda_discos1.xml">Catálogo 1</a>
+                            <a href="tienda_discos2.xml">Catálogo 2</a>
                             <a href="contacto.html">Contacto</a>
                         </nav>
                     </div>
@@ -24,11 +24,10 @@
                 <a href="#menu" class="navPanelToggle">
                     <span class="fa fa-bars"></span>
                 </a>
-
                 <section id="main">
                     <div class="inner">
                         <header>
-                            <h1>Catálogo de Productos o servicios (tabla)</h1>
+                            <h1>Edicion Especial</h1>
                         </header>
                         <div class="table-wrapper">
                             <table>
@@ -36,40 +35,31 @@
                                     <tr>
                                         <th></th>
                                         <th>Nombre</th>
-                                        <th>Descripción</th>
-                                        <th>Precio</th>
+                                        <th>Canciones</th>
+                                        <th>Formato</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>
-                                            <img src="../images/diamante1.jpg" alt="producto 1" width="100" height="100"/>
-                                        </td>
-                                        <td>Producto 1</td>
-                                        <td>Descripción del producto 1:
-                                            <ul>
-                                                <li>Dolor pulvinar etiam magna etiam.</li>
-                                                <li>Sagittis adipiscing lorem eleifend.</li>
-                                                <li>Felis enim feugiat dolore viverra.</li>
-                                            </ul>
-
-                                        </td>
-                                        <td>29.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <img src="../images/diamante2.jpg" alt="producto 2" width="100" height="100"/>
-                                        </td>
-                                        <td>Producto 2</td>
-                                        <td>Descripción del producto 2:
-                                            <ul>
-                                                <li>Dolor pulvinar etiam magna etiam.</li>
-                                                <li>Sagittis adipiscing lorem eleifend.</li>
-                                                <li>Felis enim feugiat dolore viverra.</li>
-                                            </ul>
-                                        </td>
-                                        <td>37.44</td>
-                                    </tr>
+                                    <xsl:for-each select="$XMLTienda//disco[@especial='SI']">
+                                        <tr>
+                                            <td>
+                                                <a target="_blank"><xsl:attribute name="href">../images/<xsl:value-of select="caratula"/></xsl:attribute><img alt="imagen-producto">
+                                                        <xsl:attribute name="src">../images/<xsl:value-of select="caratula"/></xsl:attribute>
+                                                        <xsl:attribute name="width">100</xsl:attribute><xsl:attribute name="height">100</xsl:attribute>
+                                                    </img></a>
+                                            </td>
+                                            
+                                            <td><xsl:value-of select="nombre_disco"/></td>
+                                            <td>
+                                                <ul>
+                                                    <xsl:for-each select="canciones/cancion/titulo">
+                                                        <li><xsl:value-of select="."/></li>
+                                                    </xsl:for-each>
+                                                </ul>
+                                            </td>
+                                            <td><xsl:value-of select="@cod_form"/></td>
+                                        </tr>
+                                    </xsl:for-each>
                                 </tbody>
                                 <tfoot>
                                     <tr>
@@ -80,7 +70,6 @@
                         </div>
                     </div>
                 </section>
-
                 <!-- Footer -->
                 <footer id="footer">
                     <div class="inner">
@@ -122,13 +111,13 @@
                         </div>
                     </div>
                 </footer>
-
+                
                 <!-- Scripts -->
                 <script src="../assets/js/jquery.min.js"></script>
                 <script src="../assets/js/skel.min.js"></script>
                 <script src="../assets/js/util.js"></script>
                 <script src="../assets/js/main.js"></script>
-
+                
             </body>
         </html>
     </xsl:template>

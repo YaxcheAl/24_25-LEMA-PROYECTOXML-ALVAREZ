@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-	<xsl:variable name="XMLTienda" select="document('tienda_discos2.xml')"/>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:variable name="XMLTienda" select="document('tienda_discos2.xml')"/>
 	<xsl:template match="/">
-		<html lang="es">
+		<html lang="es">			 
+			<head>
+				<title>UD6: Proyecto dirigido a la validación, formateo y transformación de documentos XML</title>
+				<meta charset="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+				<link rel="stylesheet" href="../assets/css/main.css" />
+			</head>
 			<body>
 				<header id="header">
 					<div class="inner">
 						<a href="../index.html" class="logo">Nombre de la web</a>
 						<nav id="nav">
 							<a href="../index.html">Página Principal</a>
-							<a href="catalogo_1.html">Catálogo 1</a>
-							<a href="#">Catálogo 2</a>
+							<a href="tienda_discos1.xml">Catálogo 1</a>
+							<a href="tienda_discos2.xml">Catálogo 2</a>
 							<a href="contacto.html">Contacto</a>
 						</nav>
 					</div>
@@ -86,7 +92,7 @@
 				<footer id="footer">
 					<div class="inner">
 						<div class="copyright">
-					&copy; 202X Integrantes del grupo
+					&#169; 202X Integrantes del grupo
 							<ul class="icons">
 								<li>
 									<a href="#" class="icon fa-twitter">
@@ -123,12 +129,10 @@
 						</div>
 					</div>
 				</footer>
-
 				<script src="../assets/js/jquery.min.js"></script>
 				<script src="../assets/js/skel.min.js"></script>
 				<script src="../assets/js/util.js"></script>
 				<script src="../assets/js/main.js"></script>
-
 			</body>
 		</html>
 	</xsl:template>
