@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:variable name="totalProductos" select="count($XMLTienda//disco[@cod_gen='G01' or @cod_gen='G03' or @cod_gen='G05' or @cod_gen='G07'])"/>
     <xsl:variable name="XMLTienda" select="document('tienda_discos.xml')"/>
     <xsl:template match="/">
         <html lang="es">
@@ -35,9 +36,10 @@
                                 <thead>
                                     <tr>
                                         <th></th>
-                                        <th>Nombre</th>
-                                        <th>Canciones</th>
-                                        <th>Formato</th>
+                                        <th>Name</th>
+                                        <th>Songs</th>
+                                        <th>Format</th>
+                                        <th>Price</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -58,13 +60,14 @@
                                                     </xsl:for-each>
                                                 </ul>
                                             </td>
-                                            <td><xsl:value-of select="@cod_form"/></td>
+                                            <td><a target="_blank"><xsl:attribute name="href">https://<xsl:value-of select="link_compra"/></xsl:attribute>More Info</a></td>
+                                            <td><xsl:value-of select="precio + (precio * //informacion_tienda/iva div 100)"/>€</td>
                                         </tr>
                                     </xsl:for-each>
                                 </tbody>
                                 <tfoot>
                                     <tr>
-                                        <td colspan="4">Todos los productos de insuperable calidad</td>
+                                        <td colspan="4">Total records: <xsl:value-of select="$totalProductos"/></td>
                                     </tr>
                                 </tfoot>
                             </table>
@@ -75,7 +78,7 @@
                 <footer id="footer">
                     <div class="inner">
                         <div class="copyright">
-                            &#169; 202X Integrantes del grupo
+                            &#169; 2025 Yaxche, Anahi And Fabricia
                             <ul class="icons">
                                 <li>
                                     <a href="#" class="icon fa-twitter">

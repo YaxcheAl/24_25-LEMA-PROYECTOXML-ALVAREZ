@@ -2,7 +2,7 @@
 <!DOCTYPE tienda_discos SYSTEM "tienda_discos.dtd">
 <tienda_discos>
     <informacion_tienda>
-        <nombre_tienda>NOMBRE A ELEGIR</nombre_tienda>
+        <nombre_tienda>MusicLand</nombre_tienda>
         <direccion>
             <calle>Avenida de la Música, 123</calle>
             <ciudad>Vitoria</ciudad>
@@ -30,7 +30,7 @@
             <fecha_lanzamiento>2008-08-26</fecha_lanzamiento> 
             <duracion medida="minuto">57:44</duracion>
             <caratula>allhopeisgone-slipknot.jpg</caratula>
-            <link_compra>https://www.fnac.es/a218771/Slipknot-All-Hope-Is-Gone</link_compra>
+            <link_compra>www.fnac.es/a218771/Slipknot-All-Hope-Is-Gone</link_compra>
             <canciones>
                 <cancion>
                     <titulo>.execute.</titulo>
@@ -94,12 +94,12 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C02" cod_artista="A04" cod_gen="G03" cod_form="VINILO">
+        <disco cod_disco="C02" cod_artista="A04" cod_gen="G03" cod_form="VINYL">
             <nombre_disco>Venom</nombre_disco>
             <fecha_lanzamiento>2008-08-14</fecha_lanzamiento>
             <duracion medida="minuto">57:44</duracion>
             <caratula>venom-bulletformyvalentine.jpg</caratula>
-            <link_compra>https://www.emp-online.es/p/The-poison/574199St.html/?gQT=2</link_compra>
+            <link_compra>www.emp-online.es/p/The-poison/574199St.html/?gQT=2</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Venom</titulo>
@@ -152,7 +152,7 @@
             <fecha_lanzamiento>1972-03-03</fecha_lanzamiento>
             <duracion medida="minuto">39:14</duracion>
             <caratula>Music_of_My_Mind.jpg</caratula>
-            <link_compra>https://www.amazon.com/dp/B000002P0U</link_compra>
+            <link_compra>www.amazon.com/dp/B000002P0U</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Love Having You Around</titulo>
@@ -205,7 +205,7 @@
             <fecha_lanzamiento>2008-11-04</fecha_lanzamiento>
             <duracion medida="minuto">78:42</duracion>
             <caratula>The_Definitive_Collection.jpg</caratula>
-            <link_compra>https://www.amazon.com/dp/B001A6H0Q6</link_compra>
+            <link_compra>www.amazon.com/dp/B001A6H0Q6</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Fallin&#39;</titulo>
@@ -268,12 +268,12 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C05" cod_artista="A12" cod_gen="G06" cod_form="VINILO" especial="SI">
+        <disco cod_disco="C05" cod_artista="A12" cod_gen="G06" cod_form="VINYL" especial="SI">
             <nombre_disco>Bohemian Rhapsody: The Original Soundtrack</nombre_disco>
             <fecha_lanzamiento>2018-11-19</fecha_lanzamiento>
             <duracion medida="minuto">66:22</duracion>
             <caratula>bohemianrhapsody-queen.jpg</caratula>
-            <link_compra>https://www.discogs.com/es/release/15417745-Queen-Bohemian-Rhapsody-The-Original-Soundtrack</link_compra>
+            <link_compra>www.discogs.com/es/release/15417745-Queen-Bohemian-Rhapsody-The-Original-Soundtrack</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Somebody to love</titulo>
@@ -330,7 +330,7 @@
             <fecha_lanzamiento>1987-07-21</fecha_lanzamiento>
             <duracion medida="minuto">23:55</duracion>
             <caratula>appetitefordestruction-gunsnroses.jpg</caratula>
-            <link_compra>https://www.fnac.es/a1750688/Guns-N-Roses-Appetite-for-Destruction-Disco</link_compra>
+            <link_compra>www.fnac.es/a1750688/Guns-N-Roses-Appetite-for-Destruction-Disco</link_compra>
             <canciones>
                 <cancion>
                     <titulo>It&#39;s So Easy</titulo>
@@ -359,7 +359,7 @@
             <fecha_lanzamiento>2013-03-01</fecha_lanzamiento>
             <duracion medida="minuto">45:31</duracion>
             <caratula>sempiternal-bringmethehorizon.jpg</caratula>
-            <link_compra>https://www.amazon.es/Sempiternal-Bring-Me-Horizon/dp/B00C57DFY4</link_compra>
+            <link_compra>www.amazon.es/Sempiternal-Bring-Me-Horizon/dp/B00C57DFY4</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Can You Feel My Heart</titulo>
@@ -407,12 +407,12 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C08" cod_artista="A03" cod_gen="G03" cod_form="VINILO">
+        <disco cod_disco="C08" cod_artista="A03" cod_gen="G03" cod_form="VINYL">
             <nombre_disco>Waking the Fallen</nombre_disco>
             <fecha_lanzamiento>2003-08-26</fecha_lanzamiento>
             <duracion medida="minuto">68:36</duracion>
             <caratula>wakingthefallen-avengedsevenfold.jpg</caratula>
-            <link_compra>https://www.iberlibro.com/9781774440148/Dead-Man-Walking-Fallen-Men-1774440148/plp</link_compra>
+            <link_compra>www.iberlibro.com/9781774440148/Dead-Man-Walking-Fallen-Men-1774440148/plp</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Waking the Fallen</titulo>
@@ -469,7 +469,7 @@
             <fecha_lanzamiento>2005-04-17</fecha_lanzamiento>
             <duracion medida="minuto">72:50</duracion>
             <caratula>cityofevil-avengedsevenfold.jpg</caratula>
-            <link_compra>https://www.amazon.es/City-Evil-Avenged-Sevenfold/dp/B000EBCEBI</link_compra>
+            <link_compra>www.amazon.es/City-Evil-Avenged-Sevenfold/dp/B000EBCEBI</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Beast And The Harlot</titulo>
@@ -517,12 +517,12 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C10" cod_artista="A03" cod_gen="G05" cod_form="VINILO">
+        <disco cod_disco="C10" cod_artista="A03" cod_gen="G05" cod_form="VINYL">
             <nombre_disco>Diamonds In The Rough</nombre_disco>
             <fecha_lanzamiento>2008-03-03</fecha_lanzamiento>
             <duracion medida="minuto"></duracion>
             <caratula>diamondsintherough-avengedsevenfold.jpg</caratula>
-            <link_compra>https://www.amazon.es/Avenged-Sevenfold-Diamonds-Rough-LP-Vinilo/dp/B083X6NKXT</link_compra>
+            <link_compra>www.amazon.es/Avenged-Sevenfold-Diamonds-Rough-LP-VINYL/dp/B083X6NKXT</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Demons</titulo>
@@ -590,12 +590,12 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C11" cod_artista="A11" cod_gen="G06" cod_form="VINILO" especial="SI">
+        <disco cod_disco="C11" cod_artista="A11" cod_gen="G06" cod_form="VINYL" especial="SI">
             <nombre_disco>Love At First Sting</nombre_disco>
             <fecha_lanzamiento>1984-01-20</fecha_lanzamiento>
             <duracion medida="minuto">41</duracion>
             <caratula>loveatfirststing-scorpions.jpg</caratula>
-            <link_compra>https://www.amazon.es/Love-At-First-Sting-Vinilo/dp/B016ZXZ7OO</link_compra>
+            <link_compra>www.amazon.es/Love-At-First-Sting-VINYL/dp/B016ZXZ7OO</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Bad Boys Running Wild</titulo>
@@ -640,7 +640,7 @@
             <fecha_lanzamiento>2003-05-12</fecha_lanzamiento>
             <duracion medida="minuto">36:03</duracion>
             <caratula>meteora-linkinpark.jpg</caratula>
-            <link_compra>https://www.amazon.es/Meteora-Jewelcase-Linkin-Park/dp/B00008S7JP</link_compra>
+            <link_compra>www.amazon.es/Meteora-Jewelcase-Linkin-Park/dp/B00008S7JP</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Foreword</titulo>
@@ -696,12 +696,12 @@
                 </cancion>
             </canciones>
         </disco>
-        <disco cod_disco="C13" cod_artista="A03" cod_gen="G03" cod_form="VINILO">
+        <disco cod_disco="C13" cod_artista="A03" cod_gen="G03" cod_form="VINYL">
             <nombre_disco>Nightmare</nombre_disco>
             <fecha_lanzamiento>2010</fecha_lanzamiento>
             <duracion medida="minuto">66:50</duracion>
             <caratula>nightmare-avengedsevenfold.jpg</caratula>
-            <link_compra>https://www.amazon.es/Nightmare-Avenged-Sevenfold/dp/B003XKDFCO</link_compra>
+            <link_compra>www.amazon.es/Nightmare-Avenged-Sevenfold/dp/B003XKDFCO</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Nightmare</titulo>
@@ -754,7 +754,7 @@
             <fecha_lanzamiento>1990-05-06</fecha_lanzamiento>
             <duracion medida="minuto">45:10</duracion>
             <caratula>rustinpeace-megadeth.jpg</caratula>
-            <link_compra>https://www.amazon.com/Rust-Peace-Megadeth/dp/B000002UUX</link_compra>
+            <link_compra>www.amazon.com/Rust-Peace-Megadeth/dp/B000002UUX</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Holy Wars...The Punishment Due</titulo>
@@ -799,7 +799,7 @@
             <fecha_lanzamiento>2022-12-12</fecha_lanzamiento>
             <duracion medida="minuto">49:51</duracion>
             <caratula>scoringtheendoftheworld-motionlessinwhite.jpg</caratula>
-            <link_compra>https://www.amazon.es/Motionless-White-Scoring-End-World/dp/B09VLK12F5</link_compra>
+            <link_compra>www.amazon.es/Motionless-White-Scoring-End-World/dp/B09VLK12F5</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Meltdown</titulo>
@@ -860,7 +860,7 @@
             <fecha_lanzamiento>2015-05-09</fecha_lanzamiento>
             <duracion medida="minuto">45:00</duracion>
             <caratula>thatsthespirit-bringmethehorizon.jpg</caratula>
-            <link_compra>https://www.amazon.es/Thats-Spirit-Bring-Me-Horizon/dp/B012BCJ27G</link_compra>
+            <link_compra>www.amazon.es/Thats-Spirit-Bring-Me-Horizon/dp/B012BCJ27G</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Doomed</titulo>
@@ -913,7 +913,7 @@
             <fecha_lanzamiento>1999-11-11</fecha_lanzamiento>
             <duracion medida="minuto">48:45</duracion>
             <caratula>thepoison-bulletformyvalentine.jpg</caratula>
-            <link_compra>https://www.amazon.es/Poison-Bullet-My-Valentine/dp/B000B5253E</link_compra>
+            <link_compra>www.amazon.es/Poison-Bullet-My-Valentine/dp/B000B5253E</link_compra>
             <canciones>
                 <cancion>
                     <titulo>Intro</titulo>
@@ -977,8 +977,8 @@
             recordings with high quality and a capacity of up to 74–80 minutes of uncompressed
             audio.</descripcion>
         </formato>
-        <formato cod_form="VINILO">
-            <nombre>Vinilo</nombre>
+        <formato cod_form="VINYL">
+            <nombre>VINYL</nombre>
             <descripcion>Vinyl record, an analog sound storage medium in the
             form of a flat disc, valued for its warm sound quality and used by audiophiles.</descripcion>
         </formato>

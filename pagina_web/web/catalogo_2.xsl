@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:variable name="totalProductos" select="count($XMLTienda//disco)"/>
 	<xsl:variable name="XMLTienda" select="document('tienda_discos.xml')"/>
 	<xsl:template match="/">
 		<html lang="es">			 
 			<head>
-				<title>UD6: Proyecto dirigido a la validación, formateo y transformación de documentos XML</title>
+				<title>All Our Records</title>
 				<meta charset="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 				<link rel="stylesheet" href="../assets/css/main.css" />
@@ -29,7 +30,7 @@
 				<section id="main">
 					<div class="inner">
 						<header>
-							<h1>Todos Nuestros Discos</h1>
+							<h1>All Our Records</h1>
 						</header>
 						<xsl:for-each select="$XMLTienda//disco">
 							<div class="box">
@@ -38,23 +39,27 @@
 										<xsl:attribute name="width">280</xsl:attribute><xsl:attribute name="height">280</xsl:attribute>
 									</img></a>
 								<h3><xsl:value-of select="nombre_disco"/></h3>
-								<strong>Canciones</strong>
+								<strong>Songs</strong>
 								<ul>
 									<xsl:for-each select="canciones/cancion/titulo">
 										<li><xsl:value-of select="."/></li>
 									</xsl:for-each>
 								</ul>
-								<span>Formato: <xsl:value-of select="@cod_form"/></span>
-								<a href="#" class="button fit">Más información</a>
+								<span>Format: <xsl:value-of select="@cod_form"/></span><br/>
+								<span><xsl:value-of select="precio + (precio * //informacion_tienda/iva div 100)"/>€</span>
+								<a class="button fit" target="_blank"><xsl:attribute name="href">https://<xsl:value-of select="link_compra"/></xsl:attribute>More Info</a>
 							</div>
 						</xsl:for-each>
+						<div class="total-productos">
+							Total records: <xsl:value-of select="$totalProductos"/>
+						</div>
 					</div>
 				</section>
 				
 				<footer id="footer">
 					<div class="inner">
 						<div class="copyright">
-							&#169; 202X Integrantes del grupo
+							&#169; 2025 Yaxche, Anahi And Fabricia
 							<ul class="icons">
 								<li>
 									<a href="#" class="icon fa-twitter">
@@ -87,7 +92,7 @@
 									</a>
 								</li>
 							</ul>
-							Datos de la empresa o asosciación
+							
 						</div>
 					</div>
 				</footer>
