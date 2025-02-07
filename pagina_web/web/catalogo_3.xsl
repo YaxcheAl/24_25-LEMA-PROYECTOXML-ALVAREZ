@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:variable name="XMLTienda" select="document('tienda_discos3.xml')"/>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:variable name="XMLTienda" select="document('tienda_discos.xml')"/>
     <xsl:template match="/">
         <html lang="es">
             <head>
@@ -12,13 +12,13 @@
             <body>
                 <header id="header">
                     <div class="inner">
-                        <a href="../index.html" class="logo">Nombre de la web</a>
+                        <a href="../index.html" class="logo">MusicLand</a>
                         <nav id="nav">
-                            <a href="../index.html">Página Principal</a>
-							<a href="tienda_discos1.xml">Ediciones Especiales</a>
-							<a href="tienda_discos2.xml">Todos Nuestros Discos</a>
-							<a href="tienda_discos3.xml">Discos De Metal</a>
-							<a href="contacto.html">Contacto</a>
+                            <a href="../index.html">Principal Page</a>
+							<a href="tienda_discos1.xml">Special Editions</a>
+							<a href="tienda_discos2.xml">All Our Records</a>
+							<a href="tienda_discos3.xml">Metal Records</a>
+							<a href="contacto.html">Contact</a>
                         </nav>
                     </div>
                 </header>

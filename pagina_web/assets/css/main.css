@@ -3153,7 +3153,9 @@
 			line-height: inherit;
 			margin: 0;
 			padding: 0;
-			position: absolute;
+			position: fixed;
+			text-align: left;
+			margin-left: 40px;
 			top: 0;
 			color: #e5474b;
 			font-size: 1.75em;

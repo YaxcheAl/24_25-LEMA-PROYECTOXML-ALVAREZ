@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:variable name="XMLTienda" select="document('tienda_discos1.xml')"/>
+    <xsl:variable name="XMLTienda" select="document('tienda_discos.xml')"/>
     <xsl:template match="/">
         <html lang="es">
             <head>
-                <title>UD6: Proyecto dirigido a la validación, formateo y transformación de documentos XML</title>
+                <title>UD6: Special Editions</title>
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
                 <link rel="stylesheet" href="../assets/css/main.css" />
@@ -12,13 +12,13 @@
             <body>
                 <header id="header">
                     <div class="inner">
-                        <a href="../index.html" class="logo">Nombre de la web</a>
+                        <a href="../index.html" class="logo">MusicLand</a>
                         <nav id="nav">
-                            <a href="../index.html">Página Principal</a>
-							<a href="tienda_discos1.xml">Ediciones Especiales</a>
-							<a href="tienda_discos2.xml">Todos Nuestros Discos</a>
-							<a href="tienda_discos3.xml">Discos De Metal</a>
-							<a href="contacto.html">Contacto</a>
+                            <a href="../index.html">Principal Page</a>
+							<a href="tienda_discos1.xml">Special Editions</a>
+							<a href="tienda_discos2.xml">All Our Records</a>
+							<a href="tienda_discos3.xml">Metal Records</a>
+							<a href="contacto.html">Contact</a>
                         </nav>
                     </div>
                 </header>
@@ -37,7 +37,7 @@
                                         <th></th>
                                         <th>Nombre</th>
                                         <th>Canciones</th>
-                                        <th>Formato</th>
+                                        <th>Info</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -58,7 +58,7 @@
                                                     </xsl:for-each>
                                                 </ul>
                                             </td>
-                                            <td><xsl:value-of select="@cod_form"/></td>
+                                            <td><a target="_blank"><xsl:attribute name="href"><xsl:value-of select="link_compra"/></xsl:attribute></a></td>
                                         </tr>
                                     </xsl:for-each>
                                 </tbody>
