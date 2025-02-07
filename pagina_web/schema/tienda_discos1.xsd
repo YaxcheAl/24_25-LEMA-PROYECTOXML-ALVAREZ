@@ -76,7 +76,7 @@
                                         </xs:element>
                                         <xs:element name="caratula" type="xs:string" />
                                         <xs:element name="link_compra" type="xs:string" />
-                                        <xs:element name="precio" type="xs:integer"/>
+                                        <xs:element name="precio" type="xs:decimal"/>
                                         <xs:element name="canciones">
                                             <xs:complexType>
                                                 <xs:sequence>
@@ -125,7 +125,7 @@
                                             <xs:restriction base="xs:IDREF">
                                                 <xs:enumeration value="BLU-RAY" />
                                                 <xs:enumeration value="CD" />
-                                                <xs:enumeration value="VINILO" />
+                                                <xs:enumeration value="VINYL" />
                                             </xs:restriction>
                                         </xs:simpleType>
                                     </xs:attribute>
