@@ -36,7 +36,7 @@ THERE ARE ID, IDREF, AND A LOT OF THINGS-->
 <!ATTLIST duracion medida CDATA #FIXED "minuto">
 <!-- IN THE NEXT LINE WE CAN APPRECIATE A ENUMERATION BETWEEN 3 WORDS-->
 <!ELEMENT formato (#PCDATA|nombre|descripcion)*>
-<!ATTLIST formato cod_form (VINILO | CD | BLU-RAY) #REQUIRED>
+<!ATTLIST formato cod_form (VINYL | CD | BLU-RAY) #REQUIRED>
 <!ELEMENT caratula (#PCDATA)>
 <!ELEMENT link_compra (#PCDATA)>
 <!ELEMENT canciones (cancion+)>
