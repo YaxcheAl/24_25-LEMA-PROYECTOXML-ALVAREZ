@@ -40,12 +40,12 @@
                                                         <!-- CAMBIO-->
                                                         <xs:attribute name="tipo" use="optional" />
                                                         <xs:attribute name="direccion"
-                                                            use="required" />
+                                                            use="optional" />
                                                     </xs:extension>
                                                 </xs:simpleContent>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="email" type="emailTypo" />
+                                        <xs:element name="email" type="emailType" />
                                         <xs:element name="web" type="xs:string" />
                                     </xs:sequence>
                                 </xs:complexType>
@@ -64,13 +64,12 @@
                                         <xs:element name="fecha_lanzamiento" type="xs:string" />
                                         <xs:element name="duracion">
                                             <xs:complexType>
-                                               <xs:simpleContent>
+                                                <xs:simpleContent>
                                                     <xs:extension base="xs:string">
-                                                            <!-- CAMBIO-->
-                                                           <xs:attribute name="medida" use="optional" default="minuto"/>
-                                                           <xs:attribute name="tiempo" use="optional" default="segundos"/>
+                                                        <xs:attribute name="medida" use="optional"
+                                                            default="minuto" />
                                                     </xs:extension>
-                                               </xs:simpleContent>
+                                                </xs:simpleContent>
                                             </xs:complexType>
                                         </xs:element>
                                         <xs:element name="caratula" type="xs:string" />
@@ -78,7 +77,8 @@
                                         <xs:element name="canciones">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="cancion" maxOccurs="unbounded" minOccurs="1">
+                                                    <xs:element name="cancion" maxOccurs="unbounded"
+                                                        minOccurs="1">
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element name="titulo"
@@ -103,7 +103,7 @@
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
-                                    <xs:attribute name="cod_disco"  use="required">
+                                    <xs:attribute name="cod_disco" use="required">
                                         <xs:simpleType>
                                             <!-- CAMBIO-->
                                             <xs:restriction base="xs:ID">
@@ -217,7 +217,7 @@
         </xs:complexType>
     </xs:element>
     <!-- CAMBIO-->
-    <xs:simpleType name="emailTypo">
+    <xs:simpleType name="emailType">
         <xs:restriction base="xs:string">
             <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" />
         </xs:restriction>
