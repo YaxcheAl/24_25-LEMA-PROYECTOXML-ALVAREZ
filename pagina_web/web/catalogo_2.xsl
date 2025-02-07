@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:variable name="XMLTienda" select="document('tienda_discos2.xml')"/>
+	<xsl:variable name="XMLTienda" select="document('tienda_discos2.xml')"/>
 	<xsl:template match="/">
 		<html lang="es">			 
 			<head>
@@ -15,8 +15,10 @@
 						<a href="../index.html" class="logo">Nombre de la web</a>
 						<nav id="nav">
 							<a href="../index.html">Página Principal</a>
-							<a href="tienda_discos1.xml">Catálogo 1</a>
-							<a href="tienda_discos2.xml">Catálogo 2</a>
+							<a href="tienda_discos1.xml">Ediciones Especiales</a>
+							<a href="tienda_discos2.xml">Todos Nuestros Discos</a>
+							<a href="tienda_discos3.xml">Discos De Metal</a>
+							<a href="tienda_discos4.xml">Discos De Rock</a>
 							<a href="contacto.html">Contacto</a>
 						</nav>
 					</div>
@@ -24,75 +26,36 @@
 				<a href="#menu" class="navPanelToggle">
 					<span class="fa fa-bars"></span>
 				</a>
-
+				
 				<section id="main">
 					<div class="inner">
 						<header>
-							<h1>Catálogo de Productos o servicios (divisiones)</h1>
+							<h1>Todos Nuestros Discos</h1>
 						</header>
-						<div class="box">
-							<a href="https://youtu.be/s6zR2T9vn2c" class="image fit">
-								<img src="../images/pic01.jpg" alt="" />
-							</a>
-							<h3>Producto 1</h3>
-							<strong>Descripción del producto 1:</strong>
-							<ul>
-								<li>Dolor pulvinar etiam magna etiam.</li>
-								<li>Sagittis adipiscing lorem eleifend.</li>
-								<li>Felis enim feugiat dolore viverra.</li>
-							</ul>
-							<span>Precio: 23.45</span>
-							<a href="#" class="button fit">Más información</a>
-						</div>
-						<div class="box">
-							<a href="https://youtu.be/s6zR2T9vn2c" class="image fit">
-								<img src="../images/pic02.jpg" alt="" />
-							</a>
-							<h3>Producto 2</h3>
-							<strong>Descripción del producto 2:</strong>
-							<ul>
-								<li>Dolor pulvinar etiam magna etiam.</li>
-								<li>Sagittis adipiscing lorem eleifend.</li>
-								<li>Felis enim feugiat dolore viverra.</li>
-							</ul>
-							<span>Precio: 33.45</span>
-							<a href="#" class="button fit">Más información</a>
-						</div>
-						<div class="box">
-							<a href="https://youtu.be/s6zR2T9vn2c" class="image fit">
-								<img src="../images/pic03.jpg" alt="" />
-							</a>
-							<h3>Producto 3</h3>
-							<strong>Descripción del producto 3:</strong>
-							<ul>
-								<li>Dolor pulvinar etiam magna etiam.</li>
-								<li>Sagittis adipiscing lorem eleifend.</li>
-								<li>Felis enim feugiat dolore viverra.</li>
-							</ul>
-							<span>Precio: 63.45</span>
-							<a href="#" class="button fit">Más información</a>
-						</div>
-						<div class="box">
-							<a href="https://youtu.be/s6zR2T9vn2c" class="image fit">
-								<img src="../images/pic04.jpg" alt="" />
-							</a>
-							<h3>Producto 4</h3>
-							<strong>Descripción del producto 4:</strong>
-							<ul>
-								<li>Dolor pulvinar etiam magna etiam.</li>
-								<li>Sagittis adipiscing lorem eleifend.</li>
-								<li>Felis enim feugiat dolore viverra.</li>
-							</ul>
-							<span>Precio: 29.45</span>
-							<a href="#" class="button fit">Más información</a>
-						</div>
+						<xsl:for-each select="$XMLTienda//disco">
+							<div class="box">
+								<a target="_blank"><xsl:attribute name="href">../images/<xsl:value-of select="caratula"/></xsl:attribute><img alt="imagen-producto">
+										<xsl:attribute name="src">../images/<xsl:value-of select="caratula"/></xsl:attribute>
+										<xsl:attribute name="width">280</xsl:attribute><xsl:attribute name="height">280</xsl:attribute>
+									</img></a>
+								<h3><xsl:value-of select="nombre_disco"/></h3>
+								<strong>Canciones</strong>
+								<ul>
+									<xsl:for-each select="canciones/cancion/titulo">
+										<li><xsl:value-of select="."/></li>
+									</xsl:for-each>
+								</ul>
+								<span>Formato: <xsl:value-of select="@cod_form"/></span>
+								<a href="#" class="button fit">Más información</a>
+							</div>
+						</xsl:for-each>
 					</div>
 				</section>
-
+				
 				<footer id="footer">
 					<div class="inner">
 						<div class="copyright">
-					&#169; 202X Integrantes del grupo
+							&#169; 202X Integrantes del grupo
 							<ul class="icons">
 								<li>
 									<a href="#" class="icon fa-twitter">
@@ -125,7 +88,7 @@
 									</a>
 								</li>
 							</ul>
-					Datos de la empresa o asosciación
+							Datos de la empresa o asosciación
 						</div>
 					</div>
 				</footer>
