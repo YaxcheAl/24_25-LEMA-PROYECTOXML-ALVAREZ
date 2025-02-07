@@ -6,6 +6,7 @@
 <!ELEMENT ciudad (#PCDATA)>
 <!ELEMENT pais (#PCDATA)>
 <!ELEMENT codigo_postal (#PCDATA)>
+<!-- WE HAVE DEFINED THE PLENTY OF ELEMENTS THAT XML HAS-->
 <!ELEMENT horarios (lunes,martes,miercoles,jueves,viernes,sabado,domingo)>
 <!ELEMENT lunes (#PCDATA)>
 <!ELEMENT martes (#PCDATA)>
@@ -16,8 +17,6 @@
 <!ELEMENT domingo (#PCDATA)>
 <!ELEMENT contacto (telefono,email,web)>
 <!ELEMENT telefono (#PCDATA)>
-
-<!-- 2 CAMBIO-->
 <!ATTLIST telefono direccion (movil|fijo) #REQUIRED>
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT web (#PCDATA)>
@@ -28,19 +27,16 @@
 <!ATTLIST disco cod_gen CDATA #IMPLIED>
 <!ATTLIST disco cod_form  CDATA #IMPLIED>
 <!ATTLIST disco especial  CDATA "SI">
-<!-- 3 CAMBIO-->
-
+<!-- HERE YOU CAN SEE SOME ATTRIBUTES AND CHILDREN OF CERTAINS ELEMENTS
+THERE ARE ID, IDREF, AND A LOT OF THINGS-->
 <!ELEMENT nombre_disco (#PCDATA)>
 <!ELEMENT fecha_lanzamiento (#PCDATA)>
-
-<!-- CAMBIO 1 -->
+<!-- IN THE NEXT LINE WE CAN APPRECIATE A #FIXED ATTRIBUTE FOR EXAMPLE-->
 <!ELEMENT duracion (#PCDATA)>
 <!ATTLIST duracion medida CDATA #FIXED "minuto">
-
-<!-- CAMBIO 3-->
+<!-- IN THE NEXT LINE WE CAN APPRECIATE A ENUMERATION BETWEEN 3 WORDS-->
 <!ELEMENT formato (#PCDATA|nombre|descripcion)*>
 <!ATTLIST formato cod_form (VINILO | CD | BLU-RAY) #REQUIRED>
-
 <!ELEMENT caratula (#PCDATA)>
 <!ELEMENT link_compra (#PCDATA)>
 <!ELEMENT canciones (cancion+)>
@@ -57,15 +53,10 @@
 <!ELEMENT lugar_origen (#PCDATA)>
 <!ELEMENT miembros (miembro+)>
 <!ELEMENT miembro (#PCDATA)>
-
-<!-- CAMBIO 4-->
 <!ATTLIST miembro papel  (PRINCIPAL | OTRO) #REQUIRED>
 <!ELEMENT generos (genero+)>
-
-
-<!-- 5 CAMBIO -->
+<!--BY DEFAULT SI IN nombre_g conocido-->
 <!ATTLIST nombre_g conocido ( SI | NO) "SI" >
-
 <!ELEMENT genero (nombre_g, descripcion)>
 <!ATTLIST genero cod_gen ID #REQUIRED>
 <!ELEMENT nombre_g (#PCDATA)>
