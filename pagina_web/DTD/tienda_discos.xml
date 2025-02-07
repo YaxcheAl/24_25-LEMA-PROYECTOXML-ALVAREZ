@@ -2,6 +2,8 @@
 <!DOCTYPE tienda_discos SYSTEM "tienda_discos.dtd">
 <tienda_discos>
     <informacion_tienda>
+        <iva>21</iva>
+        <descuento_especial>50</descuento_especial>  
         <nombre_tienda>MusicLand</nombre_tienda>
         <direccion>
             <calle>Avenida de la Música, 123</calle>
@@ -31,6 +33,7 @@
             <duracion medida="minuto">57:44</duracion>
             <caratula>allhopeisgone-slipknot.jpg</caratula>
             <link_compra>www.fnac.es/a218771/Slipknot-All-Hope-Is-Gone</link_compra>
+            <precio>30.00</precio>
             <canciones>
                 <cancion>
                     <titulo>.execute.</titulo>
@@ -100,6 +103,7 @@
             <duracion medida="minuto">57:44</duracion>
             <caratula>venom-bulletformyvalentine.jpg</caratula>
             <link_compra>www.emp-online.es/p/The-poison/574199St.html/?gQT=2</link_compra>
+            <precio>25.99</precio>
             <canciones>
                 <cancion>
                     <titulo>Venom</titulo>
@@ -153,6 +157,7 @@
             <duracion medida="minuto">39:14</duracion>
             <caratula>Music_of_My_Mind.jpg</caratula>
             <link_compra>www.amazon.com/dp/B000002P0U</link_compra>
+            <precio>22.32</precio>
             <canciones>
                 <cancion>
                     <titulo>Love Having You Around</titulo>
@@ -206,6 +211,7 @@
             <duracion medida="minuto">78:42</duracion>
             <caratula>The_Definitive_Collection.jpg</caratula>
             <link_compra>www.amazon.com/dp/B001A6H0Q6</link_compra>
+            <precio>35.50</precio>
             <canciones>
                 <cancion>
                     <titulo>Fallin&#39;</titulo>
@@ -272,8 +278,9 @@
             <nombre_disco>Bohemian Rhapsody: The Original Soundtrack</nombre_disco>
             <fecha_lanzamiento>2018-11-19</fecha_lanzamiento>
             <duracion medida="minuto">66:22</duracion>
-            <caratula>bohemianrhapsody-queen.jpg</caratula>
+            <caratula>bohemianrhapsody-queen.png</caratula>
             <link_compra>www.discogs.com/es/release/15417745-Queen-Bohemian-Rhapsody-The-Original-Soundtrack</link_compra>
+            <precio>25.99</precio>
             <canciones>
                 <cancion>
                     <titulo>Somebody to love</titulo>
@@ -331,6 +338,7 @@
             <duracion medida="minuto">23:55</duracion>
             <caratula>appetitefordestruction-gunsnroses.jpg</caratula>
             <link_compra>www.fnac.es/a1750688/Guns-N-Roses-Appetite-for-Destruction-Disco</link_compra>
+            <precio>18.60</precio>
             <canciones>
                 <cancion>
                     <titulo>It&#39;s So Easy</titulo>
@@ -356,10 +364,11 @@
         </disco>
         <disco cod_disco="C07" cod_artista="A05" cod_gen="G03" cod_form="CD" especial="SI">
             <nombre_disco>Sempiternal</nombre_disco>
-            <fecha_lanzamiento>2013-03-01</fecha_lanzamiento>
+            <fecha_lanzamiento>2013-03-1</fecha_lanzamiento>
             <duracion medida="minuto">45:31</duracion>
             <caratula>sempiternal-bringmethehorizon.jpg</caratula>
             <link_compra>www.amazon.es/Sempiternal-Bring-Me-Horizon/dp/B00C57DFY4</link_compra>
+            <precio>30.00</precio>
             <canciones>
                 <cancion>
                     <titulo>Can You Feel My Heart</titulo>
@@ -413,6 +422,7 @@
             <duracion medida="minuto">68:36</duracion>
             <caratula>wakingthefallen-avengedsevenfold.jpg</caratula>
             <link_compra>www.iberlibro.com/9781774440148/Dead-Man-Walking-Fallen-Men-1774440148/plp</link_compra>
+            <precio>40.32</precio>
             <canciones>
                 <cancion>
                     <titulo>Waking the Fallen</titulo>
@@ -470,6 +480,7 @@
             <duracion medida="minuto">72:50</duracion>
             <caratula>cityofevil-avengedsevenfold.jpg</caratula>
             <link_compra>www.amazon.es/City-Evil-Avenged-Sevenfold/dp/B000EBCEBI</link_compra>
+            <precio>25.99</precio>
             <canciones>
                 <cancion>
                     <titulo>Beast And The Harlot</titulo>
@@ -523,6 +534,7 @@
             <duracion medida="minuto"></duracion>
             <caratula>diamondsintherough-avengedsevenfold.jpg</caratula>
             <link_compra>www.amazon.es/Avenged-Sevenfold-Diamonds-Rough-LP-VINYL/dp/B083X6NKXT</link_compra>
+            <precio>21.60</precio>
             <canciones>
                 <cancion>
                     <titulo>Demons</titulo>
@@ -596,6 +608,7 @@
             <duracion medida="minuto">41</duracion>
             <caratula>loveatfirststing-scorpions.jpg</caratula>
             <link_compra>www.amazon.es/Love-At-First-Sting-VINYL/dp/B016ZXZ7OO</link_compra>
+            <precio>32.48</precio>
             <canciones>
                 <cancion>
                     <titulo>Bad Boys Running Wild</titulo>
@@ -641,6 +654,7 @@
             <duracion medida="minuto">36:03</duracion>
             <caratula>meteora-linkinpark.jpg</caratula>
             <link_compra>www.amazon.es/Meteora-Jewelcase-Linkin-Park/dp/B00008S7JP</link_compra>
+            <precio>27.49</precio>
             <canciones>
                 <cancion>
                     <titulo>Foreword</titulo>
@@ -702,6 +716,7 @@
             <duracion medida="minuto">66:50</duracion>
             <caratula>nightmare-avengedsevenfold.jpg</caratula>
             <link_compra>www.amazon.es/Nightmare-Avenged-Sevenfold/dp/B003XKDFCO</link_compra>
+            <precio>20.00</precio>
             <canciones>
                 <cancion>
                     <titulo>Nightmare</titulo>
@@ -755,6 +770,7 @@
             <duracion medida="minuto">45:10</duracion>
             <caratula>rustinpeace-megadeth.jpg</caratula>
             <link_compra>www.amazon.com/Rust-Peace-Megadeth/dp/B000002UUX</link_compra>
+            <precio>26.31</precio>
             <canciones>
                 <cancion>
                     <titulo>Holy Wars...The Punishment Due</titulo>
@@ -800,6 +816,7 @@
             <duracion medida="minuto">49:51</duracion>
             <caratula>scoringtheendoftheworld-motionlessinwhite.jpg</caratula>
             <link_compra>www.amazon.es/Motionless-White-Scoring-End-World/dp/B09VLK12F5</link_compra>
+            <precio>25.99</precio>
             <canciones>
                 <cancion>
                     <titulo>Meltdown</titulo>
@@ -861,6 +878,7 @@
             <duracion medida="minuto">45:00</duracion>
             <caratula>thatsthespirit-bringmethehorizon.jpg</caratula>
             <link_compra>www.amazon.es/Thats-Spirit-Bring-Me-Horizon/dp/B012BCJ27G</link_compra>
+            <precio>18.12</precio>
             <canciones>
                 <cancion>
                     <titulo>Doomed</titulo>
@@ -914,6 +932,7 @@
             <duracion medida="minuto">48:45</duracion>
             <caratula>thepoison-bulletformyvalentine.jpg</caratula>
             <link_compra>www.amazon.es/Poison-Bullet-My-Valentine/dp/B000B5253E</link_compra>
+            <precio>30.00</precio>
             <canciones>
                 <cancion>
                     <titulo>Intro</titulo>

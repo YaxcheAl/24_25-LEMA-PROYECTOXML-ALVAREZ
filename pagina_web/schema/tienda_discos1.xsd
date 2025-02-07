@@ -6,6 +6,8 @@
                 <xs:element name="informacion_tienda">
                     <xs:complexType>
                         <xs:sequence>
+                            <xs:element name="iva" type="xs:integer" />
+                            <xs:element name="descuento_especial" type="xs:integer" />
                             <xs:element name="nombre_tienda" type="xs:string" />
                             <xs:element name="direccion">
                                 <xs:complexType>
@@ -74,6 +76,7 @@
                                         </xs:element>
                                         <xs:element name="caratula" type="xs:string" />
                                         <xs:element name="link_compra" type="xs:string" />
+                                        <xs:element name="precio" type="xs:integer"/>
                                         <xs:element name="canciones">
                                             <xs:complexType>
                                                 <xs:sequence>

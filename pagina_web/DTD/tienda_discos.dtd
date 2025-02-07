@@ -1,5 +1,7 @@
 <!ELEMENT tienda_discos (informacion_tienda,discos,formatos,artistas_discos,generos)>
-<!ELEMENT informacion_tienda (nombre_tienda,direccion,horarios,contacto)>
+<!ELEMENT informacion_tienda (iva,descuento_especial,nombre_tienda,direccion,horarios,contacto)>
+<!ELEMENT iva (#PCDATA)>
+<!ELEMENT descuento_especial (#PCDATA)>
 <!ELEMENT nombre_tienda (#PCDATA)>
 <!ELEMENT direccion (calle,ciudad,pais,codigo_postal)>
 <!ELEMENT calle (#PCDATA)>
@@ -21,7 +23,7 @@
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT web (#PCDATA)>
 <!ELEMENT discos (disco+)>
-<!ELEMENT disco (nombre_disco,autor?,fecha_lanzamiento,duracion,caratula,link_compra,canciones)>
+<!ELEMENT disco (nombre_disco,autor?,fecha_lanzamiento,duracion,caratula,link_compra,precio,canciones)>
 <!ATTLIST disco cod_disco ID #REQUIRED>
 <!ATTLIST disco cod_artista IDREF #REQUIRED>
 <!ATTLIST disco cod_gen CDATA #IMPLIED>
@@ -39,6 +41,7 @@ THERE ARE ID, IDREF, AND A LOT OF THINGS-->
 <!ATTLIST formato cod_form (VINYL | CD | BLU-RAY) #REQUIRED>
 <!ELEMENT caratula (#PCDATA)>
 <!ELEMENT link_compra (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
 <!ELEMENT canciones (cancion+)>
 <!ELEMENT cancion (titulo,duracion)>
 <!ELEMENT titulo (#PCDATA)>
