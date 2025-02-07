@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:variable name="XMLTienda" select="document('tienda_discos1.xml')"/>
-    <xsl:variable name="head">
-        <header id="header">
-            <div class="inner">
-                <a href="../index.html" class="logo">Nombre de la web</a>
-                <nav id="nav">
-                    <a href="../index.html">Página Principal</a>
-                    <a href="#">Catálogo 1</a>
-                    <a href="catalogo_2.html">Catálogo 2</a>
-                    <a href="contacto.html">Contacto</a>
-                </nav>
-            </div>
-        </header>
-    </xsl:variable>
     <xsl:template match="/">
         <html lang="es">
             <head>
@@ -23,13 +10,22 @@
                 <link rel="stylesheet" href="../assets/css/main.css" />
             </head>
             <body>
-                
-                <!-- Header -->
-                <xsl:copy-of select="$head"/>
-                <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-                
-                <!-- Main -->
-                <section id="main" >
+                <header id="header">
+                    <div class="inner">
+                        <a href="../index.html" class="logo">Nombre de la web</a>
+                        <nav id="nav">
+                            <a href="../index.html">Página Principal</a>
+                            <a href="catalogo_1.html">Catálogo 1</a>
+                            <a href="#">Catálogo 2</a>
+                            <a href="contacto.html">Contacto</a>
+                        </nav>
+                    </div>
+                </header>
+                <a href="#menu" class="navPanelToggle">
+                    <span class="fa fa-bars"></span>
+                </a>
+
+                <section id="main">
                     <div class="inner">
                         <header>
                             <h1>Catálogo de Productos o servicios (tabla)</h1>
@@ -46,7 +42,9 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><img src="../images/diamante1.jpg" alt="producto 1" width="100" height="100"/></td>
+                                        <td>
+                                            <img src="../images/diamante1.jpg" alt="producto 1" width="100" height="100"/>
+                                        </td>
                                         <td>Producto 1</td>
                                         <td>Descripción del producto 1:
                                             <ul>
@@ -54,12 +52,14 @@
                                                 <li>Sagittis adipiscing lorem eleifend.</li>
                                                 <li>Felis enim feugiat dolore viverra.</li>
                                             </ul>
-                                            
+
                                         </td>
                                         <td>29.99</td>
                                     </tr>
                                     <tr>
-                                        <td><img src="../images/diamante2.jpg" alt="producto 2" width="100" height="100"/></td>
+                                        <td>
+                                            <img src="../images/diamante2.jpg" alt="producto 2" width="100" height="100"/>
+                                        </td>
                                         <td>Producto 2</td>
                                         <td>Descripción del producto 2:
                                             <ul>
@@ -73,38 +73,62 @@
                                 </tbody>
                                 <tfoot>
                                     <tr>
-                                        <td colspan="4">Todos los productos de insuperable calidad</td>		
+                                        <td colspan="4">Todos los productos de insuperable calidad</td>
                                     </tr>
                                 </tfoot>
                             </table>
                         </div>
                     </div>
                 </section>
-                
+
                 <!-- Footer -->
                 <footer id="footer">
                     <div class="inner">
                         <div class="copyright">
                             &#169; 202X Integrantes del grupo
                             <ul class="icons">
-                                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                                <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-                                <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-                                <li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+                                <li>
+                                    <a href="#" class="icon fa-twitter">
+                                        <span class="label">Twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="icon fa-facebook">
+                                        <span class="label">Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="icon fa-instagram">
+                                        <span class="label">Instagram</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="icon fa-github">
+                                        <span class="label">Github</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="icon fa-dribbble">
+                                        <span class="label">Dribbble</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="icon fa-tumblr">
+                                        <span class="label">Tumblr</span>
+                                    </a>
+                                </li>
                             </ul>
                             Datos de la empresa o asosciación
                         </div>
                     </div>
                 </footer>
-                
+
                 <!-- Scripts -->
                 <script src="../assets/js/jquery.min.js"></script>
                 <script src="../assets/js/skel.min.js"></script>
                 <script src="../assets/js/util.js"></script>
                 <script src="../assets/js/main.js"></script>
-                
+
             </body>
         </html>
     </xsl:template>
