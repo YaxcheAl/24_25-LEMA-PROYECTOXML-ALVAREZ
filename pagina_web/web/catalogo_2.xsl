@@ -18,7 +18,6 @@
 							<a href="tienda_discos1.xml">Ediciones Especiales</a>
 							<a href="tienda_discos2.xml">Todos Nuestros Discos</a>
 							<a href="tienda_discos3.xml">Discos De Metal</a>
-							<a href="tienda_discos4.xml">Discos De Rock</a>
 							<a href="contacto.html">Contacto</a>
 						</nav>
 					</div>

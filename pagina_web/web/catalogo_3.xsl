@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:variable name="XMLTienda" select="document('tienda_discos1.xml')"/>
+    <xsl:variable name="XMLTienda" select="document('tienda_discos3.xml')"/>
     <xsl:template match="/">
         <html lang="es">
             <head>
@@ -41,7 +41,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <xsl:for-each select="$XMLTienda//disco[@especial='SI']">
+                                    <xsl:for-each select="$XMLTienda//disco[@cod_gen='G01' or @cod_gen='G03' or @cod_gen='G05' or @cod_gen='G07' ]">
                                         <tr>
                                             <td>
                                                 <a target="_blank"><xsl:attribute name="href">../images/<xsl:value-of select="caratula"/></xsl:attribute><img alt="imagen-producto">
